@@ -1,0 +1,104 @@
+#!/usr/bin/env bash
+#
+# Check for updated for Casks.
+#
+
+CMDNAME=`basename $0`
+
+update_mark=""
+
+function usage()
+{
+  cat << EOF
+Check for updated for Casks.
+usage : $CMDNAME [option]
+   -a : displays apps that do not have an update,
+        for that there is an update I will display the ( * )
+   -b : do not show if the app has been removed
+   -c : cask updates are not checked
+   -u : upgrade the app there is updates
+   -h : show usage
+EOF
+}
+
+while getopts abchu OPT
+do
+  case $OPT in
+    a) SHOW_ALL_APPS=0
+       update_mark=" (*)"
+       ;;
+    b) NOT_SHOW_REMOVE_APPS=0
+       ;;
+    c) NOT_CHECKED_CASK_UPDATES=0
+       ;;
+    u) UPGRADE=0
+       ;;
+    h|*) usage
+       exit 1
+       ;;
+  esac
+done
+
+if [[ $NOT_CHECKED_CASK_UPDATES ]]; then
+  echo "Skip checking for Homebrew updates."
+  echo ""
+else
+  echo "Checking for casks (include Homebrews) updates..."
+  echo ""
+  brew cask update
+  echo ""
+fi
+
+upgrade_apps=()
+no_artifact_apps=()
+
+if [[ $UPGRADE ]]; then
+  echo "Upgrading the casks..."
+  echo ""
+else
+  echo "==> Updated Cask"
+fi
+
+while read line
+do
+  if [[ $line =~ \(!\)$ ]]; then
+    if [[ ! $NOT_SHOW_REMOVE_APPS ]]; then
+      echo "$line"
+      no_artifact_apps+=("$line")
+    fi
+    continue
+  fi
+
+  info=$(brew cask info $line)
+  if echo $info | grep -q "Not installed"; then
+    if [[ $UPGRADE ]]; then
+      echo "Upgrade $line ..."
+      brew cask install $line --force
+      upgrade_apps+=("$line")
+    else
+      echo "$line$UPDATE_MARK"
+    fi
+  else
+    if [[ $SHOW_ALL_APPS ]]; then echo "$line"; fi
+  fi
+done < <(brew cask list -1)
+
+if [[ $UPGRADE ]]; then
+  echo ""
+  echo "==> Upgraded Cask"
+  echo ""
+
+  for app in "${upgrade_apps[@]}"
+  do
+    echo $app
+  done
+
+  echo ""
+  echo "==> No cask applications"
+  echo ""
+
+  for app in "${no_artifact_apps[@]}"
+  do
+    echo $app
+  done
+fi

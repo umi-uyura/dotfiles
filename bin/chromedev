@@ -1,0 +1,20 @@
+#!/bin/sh
+
+#
+# 起動オプション（参考）
+#   http://chrome.half-moon.org/43.html
+#
+# --allow-file-access-from-files
+#   file://からの読み込みを許可する。ローカルなリソースへアクセスが必要な場合に使用。
+#
+# --enable-geolocation
+#   Geolocation APIを有効化する
+#
+# --remote-debugging-port=9222
+#   リモートデバッギングモードを有効にする
+#
+# --incognito
+#   シークレットモードで起動する
+#
+
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --allow-file-access-from-files --enable-geolocation

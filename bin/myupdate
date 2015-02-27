@@ -1,0 +1,42 @@
+#!/bin/sh
+
+#
+# My update routine
+#
+
+echo
+echo "### Checking for Software updates ..."
+echo
+softwareupdate -l
+
+echo
+echo "### Updating Emacs casks ..."
+echo
+cask update --path ~/.emacs.d/
+
+echo
+echo "### Updating anyenv ..."
+echo
+anyenv update
+
+echo
+# echo "### Checking for Homebrew updates ..."
+echo "### Checking for Homebrew and Homebrew Cask updates ..."
+echo
+# brew update
+brewcaskupdate
+
+echo
+echo "### Checking for npm updates ..."
+echo
+npm-check-updates -g
+
+echo
+echo "### Checking for gem updates ..."
+echo
+gem outdated
+
+echo
+echo "### Updating vagrant plugins ..."
+echo
+vagrant plugin update

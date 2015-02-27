@@ -1,0 +1,132 @@
+##
+## Install GUI tools using Homebrew Cask
+##
+
+# Install Homebrew Cask
+
+install caskroom/cask/brew-cask
+
+
+#
+# Install casks
+#
+
+tap caskroom/versions
+
+# cask install node 2> /dev/null
+cask install java6 2> /dev/null
+cask install java 2> /dev/null
+cask install xquartz 2> /dev/null
+cask install adobe-air 2> /dev/null
+
+cask install alfred 2> /dev/null
+cask install iterm2 2> /dev/null
+cask install keepassx 2> /dev/null
+
+cask install google-chrome 2> /dev/null
+cask install firefox 2> /dev/null
+
+cask install google-japanese-ime 2> /dev/null
+cask install adobe-reader 2> /dev/null
+cask install libreoffice 2> /dev/null
+cask install xmind 2> /dev/null
+cask install ganttproject 2> /dev/null
+cask install macdown 2> /dev/null
+cask install astah-community 2> /dev/null
+cask install pencil 2> /dev/null
+cask install calibre 2> /dev/null
+cask install simple-comic 2> /dev/null
+cask install hex-fiend 2> /dev/null
+
+cask install dropbox 2> /dev/null
+cask install omnidisksweeper 2> /dev/null
+cask install android-file-transfer 2> /dev/null
+
+cask install github 2> /dev/null
+cask install svnx 2> /dev/null
+
+cask install cakebrew 2> /dev/null
+cask install launchrocket 2> /dev/null
+cask install android-studio 2> /dev/null
+cask install heroku-toolbelt 2> /dev/null
+
+cask install virtualbox 2> /dev/null
+cask install vagrant 2> /dev/null
+cask install vagrant-manager 2> /dev/null
+cask install genymotion 2> /dev/null
+cask install simpholders 2> /dev/null
+cask install simpholders-2-alpha 2> /dev/null
+
+cask install postgres 2> /dev/null
+cask install pgadmin3 2> /dev/null
+cask install sequel-pro 2> /dev/null
+cask install robomongo 2> /dev/null
+cask install sqlitebrowser 2> /dev/null
+
+cask install skype 2> /dev/null
+cask install goofy 2> /dev/null
+
+cask install filezilla 2> /dev/null
+cask install cyberduck 2> /dev/null
+
+cask install imageoptim 2> /dev/null
+cask install imagealpha 2> /dev/null
+cask install inkscape 2> /dev/null
+cask install gimp 2> /dev/null
+cask install paintbrush 2> /dev/null
+cask install pixel-winch 2> /dev/null
+
+cask install vlc 2> /dev/null
+cask install handbrake 2> /dev/null
+cask install mplayerx 2> /dev/null  # Available on Mac App Store, but it's old version
+cask install mplayer-osx-extended 2> /dev/null
+cask install audacity 2> /dev/null
+cask install tagr 2> /dev/null
+cask install gifrocket 2> /dev/null
+cask install licecap 2> /dev/null
+
+cask install appcleaner 2> /dev/null
+cask install maczip4win 2> /dev/null
+
+cask install clamxav 2> /dev/null  # Available on Mac App Store, but it's less features
+cask install accessmenubarapps 2> /dev/null
+cask install flux 2> /dev/null
+
+cask install qlcolorcode 2> /dev/null
+cask install qlimagesize 2> /dev/null
+cask install qlmarkdown 2> /dev/null
+cask install qlstephen 2> /dev/null
+cask install qlvideo 2> /dev/null
+cask install quicklook-csv 2> /dev/null
+cask install quicklook-json 2> /dev/null
+cask install betterzipql 2> /dev/null
+cask install provisionql 2> /dev/null
+
+cask install monolingual 2> /dev/null
+
+
+#
+# Install unofficial casks
+#
+
+tap caskroom/homebrew-unofficial
+
+cask install titanium-studio 2> /dev/null
+
+
+#
+# Install font casks
+#
+
+tap caskroom/fonts
+
+cask install font-roboto 2> /dev/null
+cask install font-noto-sans-japanese 2> /dev/null
+cask install font-noto-sans 2> /dev/null
+cask install font-noto-serif 2> /dev/null
+cask install font-source-code-pro 2> /dev/null
+cask install font-inconsolata 2> /dev/null
+
+
+# Remove outdated versions from the cellar
+cask cleanup

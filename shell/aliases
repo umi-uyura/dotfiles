@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+## -*- mode: sh-mode; coding: utf-8 -*-
+
+alias sudo='sudo '		# sudo後にaliasを有効にするため
+alias ls='ls -G'
+alias ll='ls -AlFG'
+alias grep='grep -E --color=auto'
+alias lgrep='lgrep -c'
+alias op='open'
+
+alias em='emacsclient -n'
+alias astudio='open ~/Applications/Android\ Studio.app'  # Run with Java 7
+alias gipeco='gi $(gi list | gsed "s/,/\n/g" | peco | gsed "N; s/\n/,/g")'
+alias joepeco='joe $(joe list | gsed "s/,\s/\n/g" | peco | gsed "N; s/\n/ /g")'

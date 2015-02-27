@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+## -*- mode: sh-mode; coding: utf-8 -*-
+
+#
+# gitignore.io https://www.gitignore.io/
+#
+
+function gi() {
+  curl -s https://www.gitignore.io/api/$@ ;
+}

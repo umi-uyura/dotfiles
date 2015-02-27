@@ -1,0 +1,23 @@
+#!/bin/sh
+#
+# Reset Launchpad script
+#
+
+OSX_VER=`sw_vers -productVersion | awk -F. '{ print $1 "." $2 }'`
+
+echo "Reset Launchpad. Are you sure?"
+read answer
+
+if [ "yes" != $answer -a "y" != $answer ]; then
+    exit
+fi
+
+if [ "$(echo "$OSX_VER > 10.9" | bc)" -eq 1 ]; then
+    # OS X 10.10 and later
+    defaults write com.apple.dock ResetLaunchPad -bool true
+    killall Dock    
+else
+    # OS X 10.9 or earlier
+    rm ~/Library/Application\ Support/Dock/*.db
+    killall Dock
+fi

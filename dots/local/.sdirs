@@ -1,0 +1,8 @@
+# Bashmarks settings
+# https://github.com/huyng/bashmarks
+
+export DIR_home="$HOME"
+export DIR_dots="$HOME/dotfiles"
+export DIR_dotemacs="$HOME/.emacs.d"
+export DIR_down="$HOME/Downloads"
+export DIR_drop="$HOME/Dropbox"

@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+#
+# On your mark
+#
+
+# TODO: Before configration check
+# 1. exist ~/.oymrc
+# 2. exist $OYM_REGULARS
+# 3. exist $OYM_SUBS
+
+source ~/.onyourmarkrc
+
+function activate_term()
+{
+  sleep $WAIT_APPS_BOOT
+  osascript -e 'tell application "iTerm" to activate'
+}
+
+read -p "On your mark ... set! (Press ENTER to run) "
+
+for app in "${REGULAR_APPS[@]}"
+do
+  echo "Starting... $app"
+  open -a "$app"
+done
+
+activate_term
+
+for sub in "${SUB_APPS[@]}"
+do
+  read -p "also start $sub? " key
+  if  [[ $key =~ (yes|y) ]]; then
+    echo "Starting... $sub"
+    open -a "$sub"
+    activate_term
+  fi
+done

@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+## -*- mode: sh-mode; coding: utf-8 -*-
+
+#
+# alias
+#
+
+
+#
+# Bashmarks - https://github.com/huyng/bashmarks
+#
+
+[ -f ~/.local/bin/bashmarks.sh ] && source ~/.local/bin/bashmarks.sh
+
+
+#
+# Java
+#
+
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.6)   # Refer jenv(anyenv)
+export PATH=$JAVA_HOME/bin:$PATH
+export _JAVA_OPTIONS='-Dfile.encoding=UTF-8'        # Not use from Java 7
+
+
+#
+# Android NDK
+#
+
+export ANDROID_NDK_HOME=$HOME/Library/android-ndk-r10b
+export PATH=$ANDROID_NDK_HOME:$PATH
+
+
+#
+# Postgress.app - http://postgresapp.com/
+#
+
+export PATH=~/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH
+
+
+##
+## EOF
+##

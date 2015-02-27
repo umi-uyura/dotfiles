@@ -1,0 +1,27 @@
+##
+## Install command-line tools using Homebrew need X11(XQuartz)
+##
+
+# Make sure we're using the latest Homebrew
+update
+
+# Upgrade any already-installed formulae
+upgrade
+
+# Install tools
+install ghostscript --with-x11
+install imagemagick --with-ghostscript --with-x11
+install https://gist.githubusercontent.com/ksato9700/0b3c71adafc256ddf280/raw/f48ac50bf8d1a16aa63606b137cd29b8fb1d7414/emacs.rb --japanese --cocoa --with-imagemagick
+install meld
+
+# Add tap
+tap sanemat/font
+install ricty
+
+# Generate synbolic link for GUI applications
+linkapps
+
+# Remove outdated versions from the cellar
+# and remove dead symlinks from the Homebrew prefix.
+cleanup
+prune

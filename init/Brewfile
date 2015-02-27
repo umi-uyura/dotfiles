@@ -1,0 +1,63 @@
+##
+## Install command-line tools using Homebrew
+##
+
+# Make sure we're using the latest Homebrew
+update
+
+# Upgrade any already-installed formulae
+upgrade
+
+# Install tools
+install coreutils
+install bash
+install ack
+install colordiff
+install tree
+install wget
+install vim
+install phantomjs
+install htop
+
+install bash-completion
+install gnu-sed
+install git
+install mercurial
+install cask
+install sl
+install lv
+install peco
+install go
+install sqlite
+link sqlite --force
+install mongodb
+install subversion
+install multimarkdown
+install pandoc
+install jq
+install tig
+install w3m
+install casperjs --devel
+install nkf
+install ffmpeg
+install gifsicle
+install mp3splt
+install mp3wrap
+install terminal-notifier
+install pwgen
+install speedtest_cli
+
+# Add tap
+tap homebrew/completions
+install vagrant-completion
+
+tap karan/karan
+install gitignore
+
+# Generate synbolic link for GUI applications
+linkapps
+
+# Remove outdated versions from the cellar
+# and remove dead symlinks from the Homebrew prefix.
+cleanup
+prune

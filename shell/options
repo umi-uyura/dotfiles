@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+## -*- mode: sh-mode; coding: utf-8 -*-
+
+# Autocorrect typos in path names when using `cd`
+shopt -s cdspell
+
+# Append to the Bash history file, rather than overwriting it
+shopt -u histappend

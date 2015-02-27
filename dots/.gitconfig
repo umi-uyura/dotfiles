@@ -1,0 +1,32 @@
+#
+# .gitconfig
+#
+
+[core]
+    excludesfile = ~/.gitignore
+
+[include]
+    path = ~/.gitconfig_local
+
+[push]
+    default = simple
+
+[color]
+    ui = auto
+    status = auto
+    diff = auto
+    branch = auto
+    interactive = auto
+    grep = auto
+
+[alias]
+    co = checkout
+    st = status --branch --short
+    sti = status --ignored --short
+    cm = commit -v --amend
+    branches = branch -a
+    remotes = remote -v
+    lg = log --graph --all --decorate --abbrev-commit --branches --date=short --pretty=format:\"%C(red)%h%C(reset) %C(green)[%ad]%C(reset) %s %C(cyan)@%an%C(reset) %C(yellow)%d%C(reset)\"
+    tags = tag -l
+    fp = fetch --prune
+    export = archive HEAD --format=zip --worktree-attributes

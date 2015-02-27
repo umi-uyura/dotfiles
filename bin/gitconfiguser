@@ -1,0 +1,27 @@
+#!/bin/sh
+#
+# Setting local git-user configuration script
+#
+
+read -p "Enter user.name: " name
+read -p "Enter user.email: " email
+
+echo
+
+echo "user.name : $name"
+echo "user.email: $email"
+
+echo
+
+echo "Is this ok? (yes or no)"
+read answer
+
+case $answer in
+  yes|y)
+    git config --local user.name "$name"
+    git config --local user.email "$email"
+    echo "configured."
+    ;;
+  *)
+    ;;
+esac
