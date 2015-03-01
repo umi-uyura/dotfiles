@@ -23,7 +23,6 @@ install bash-completion
 install gnu-sed
 install git
 install mercurial
-install cask
 install sl
 install lv
 install peco

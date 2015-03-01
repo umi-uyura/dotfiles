@@ -13,6 +13,7 @@ install ghostscript --with-x11
 install imagemagick --with-ghostscript --with-x11
 install https://gist.githubusercontent.com/ksato9700/0b3c71adafc256ddf280/raw/f48ac50bf8d1a16aa63606b137cd29b8fb1d7414/emacs.rb --japanese --cocoa --with-imagemagick
 install meld
+install cask
 
 # Add tap
 tap sanemat/font
