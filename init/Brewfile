@@ -47,8 +47,6 @@ install pwgen
 install speedtest_cli
 
 # Add tap
-tap homebrew/completions
-install vagrant-completion
 
 tap karan/karan
 install gitignore
