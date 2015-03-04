@@ -61,4 +61,5 @@ npm install -g npm-check-updates
 npm install -g npm-check
 npm install -g unused-deps
 npm install -g lice
+npm install -g dark-mode
 npm install -g umi-uyura/xcode-switch
