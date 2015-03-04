@@ -42,6 +42,7 @@ Other site
 	* [ER Master](http://ermaster.sourceforge.net/index_ja.html)
 * [GapDebug](https://www.genuitec.com/products/gapdebug/)
 * [Alternote](http://alternoteapp.com/)
+* [NeighborNote](http://puma.cis.ibaraki.ac.jp/products/neighbornote/) - Yosemiteで起動しない？
 * [Shupapan](http://sunsky3s.s41.xrea.com/shupapan/)
 * [Cacoo Ninja](https://cacoo.com/lang/ja/extension)
 * [JSON Editor](http://jsoneditor.net/#air) - require Adobe AIR
