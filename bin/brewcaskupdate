@@ -101,4 +101,6 @@ if [[ $UPGRADE ]]; then
   do
     echo $app
   done
+
+  brew cask cleanup
 fi
