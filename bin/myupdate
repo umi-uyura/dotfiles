@@ -4,38 +4,132 @@
 # My update routine
 #
 
-echo
-echo "### Checking for Software updates ..."
-echo
-softwareupdate -l
+function usage()
+{
+  cat << EOF
+My update routine
+usage : $CMDNAME [option]
+   -u : upgrade the app there is updates
+   -h : show usage
+EOF
+}
 
-echo
-echo "### Updating Emacs casks ..."
-echo
-cask update --path ~/.emacs.d/
+while getopts hu OPT
+do
+  case $OPT in
+    u) UPGRADE=0
+       ;;
+    h) usage
+       exit 1
+       ;;
+  esac
+done
 
-echo
-echo "### Updating anyenv ..."
-echo
-anyenv update
+#
+# Software update
+#
+if [ $UPGRADE ]; then
+  echo
+  echo "### Updating Software updates ..."
+  echo
+  softwareupdate -i -a
+else
+  echo
+  echo "### Checking for Software updates ..."
+  echo
+  softwareupdate -l
+fi
 
+#
+# dotfiles
+#
 echo
-# echo "### Checking for Homebrew updates ..."
-echo "### Checking for Homebrew and Homebrew Cask updates ..."
+echo "### Checking for dotfiles updates ..."
 echo
-# brew update
-brewcaskupdate
+git -C ~/dotfiles remote show origin | tail -n 1
 
+#
+# .emacs.d
+#
 echo
-echo "### Checking for npm updates ..."
+echo "### Checking for .emacs.d updates ..."
 echo
-npm-check-updates -g
+git -C ~/.emacs.d remote show origin | tail -n 1
 
-echo
-echo "### Checking for gem updates ..."
-echo
-gem outdated
+#
+# Emacs Cask
+#
+if [ $UPGRADE ]; then
+  echo
+  echo "### Updating Emacs casks ..."
+  echo
+  cask update --path ~/.emacs.d/
+else
+  echo
+  echo "### Checking for Emacs casks updates..."
+  echo
+  cask outdated --path ~/.emacs.d/
+fi
 
+#
+# Homebrew & Homebrew Cask
+#
+if [ $UPGRADE ]; then
+  echo
+  echo "### Updating Homebrew and Homebrew Cask ..."
+  echo
+  brew upgrade
+  brewcaskupdate -u
+else
+  echo
+  echo "### Checking for Homebrew and Homebrew Cask updates ..."
+  echo
+  brewcaskupdate
+fi
+
+#
+# anyenv
+#
+if [ $UPGRADE ]; then
+  echo
+  echo "### Updating anyenv ..."
+  echo
+  anyenv update
+fi
+
+#
+# Node packages
+#
+if [ $UPGRADE ]; then
+  echo
+  echo "### Updating Node packages ..."
+  echo
+  npm update -g
+else
+  echo
+  echo "### Checking for Node package updates ..."
+  echo
+  npm-check-updates -g
+fi
+
+#
+# Rubygems
+#
+if [ $UPGRADE ]; then
+  echo
+  echo "### Updating Rubygems ..."
+  echo
+  update_rubygems
+else
+  echo
+  echo "### Checking for Rubygem updates ..."
+  echo
+  gem outdated
+fi
+
+#
+# Vagrant plugins
+#
 echo
 echo "### Updating vagrant plugins ..."
 echo
