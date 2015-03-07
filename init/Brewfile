@@ -36,6 +36,7 @@ install pandoc
 install jq
 install tig
 install w3m
+install httpie
 install casperjs --devel
 install nkf
 install ffmpeg
