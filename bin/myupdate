@@ -120,6 +120,9 @@ if [ $UPGRADE ]; then
   echo "### Updating Rubygems ..."
   echo
   update_rubygems
+  gem update
+  gem clean
+  rbenv rehash
 else
   echo
   echo "### Checking for Rubygem updates ..."
