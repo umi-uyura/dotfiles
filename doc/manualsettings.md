@@ -245,6 +245,15 @@ svnX
 		* デフォルト: `/Applications/Xcode.app/Contents/Developer/usr/bin`
 
 
+CyberDuck
+---------
+
+* 環境設定
+    * 一般
+        * ブラウザ
+            * 接続先を記憶し再起動後に接続: オフ
+
+
 Kindle for Mac
 --------------
 
