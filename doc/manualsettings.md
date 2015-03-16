@@ -113,10 +113,17 @@ iTerm2
 * Profiles
 	* General
 		* Working Directory: Reuse previous session's directory
+    * Text
+        * Regular Font
+            * Anti-aliased: オン
+            * Ricty Discord Regular 14pt
+        * Non-ASCII Font
+            * Anti-aliased: オン
+            * Ricty Discord Regular 14pt
 	* Window
 		* Setting for New Windows
-			* Retina MacBookPro 13
-				* Columns: 80, Rows: 50
+			* MacBook Air 13, Retina MacBookPro 13
+				* Columns: 80, Rows: 56
 			* iMac 27
 				* Columns: 100, Rows: 80
 	* Terminal
