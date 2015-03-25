@@ -31,6 +31,7 @@ cask install adobe-reader 2> /dev/null
 cask install libreoffice 2> /dev/null
 cask install xmind 2> /dev/null
 cask install ganttproject 2> /dev/null
+cask install projectlibre 2> /dev/null
 cask install macdown 2> /dev/null
 cask install astah-community 2> /dev/null
 cask install pencil 2> /dev/null
