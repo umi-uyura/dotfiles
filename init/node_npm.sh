@@ -23,6 +23,7 @@ npm install -g ti-inspector
 npm install -g dev.tiapp --unsafe-perm
 npm install -g tich
 npm install -g ti-64
+npm install -g ti-deploygate-hook
 
 # Phonegap/Cordova
 npm install -g phonegap
@@ -61,4 +62,4 @@ npm install -g npm-check-updates
 npm install -g npm-check
 npm install -g unused-deps
 npm install -g lice
-npm install -g umi-uyura/xcode-switch
+npm install -g xcode-switch
