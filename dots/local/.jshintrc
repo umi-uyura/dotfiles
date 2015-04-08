@@ -1,14 +1,4 @@
 {
-  "globals": {
-    "_": false,
-    "Backbone": false,
-    "Titanium": false,
-    "Ti": false,
-    "Alloy": false,
-    "$": false,
-    "arguments": false
-  },
-
   "maxdepth": 5,
   "maxcomplexity": 10,
 
@@ -33,5 +23,14 @@
   "devel": true,
   "debug": true,
   "jquery": false,
-  "node": true
+  "node": true,
+  "globals": {
+    "_": true,
+    "$": true,
+    "Backbone": true,
+    "Titanium": true,
+    "Ti": true,
+    "Alloy": true,
+    "arguments": true
+  }
 }
