@@ -35,6 +35,7 @@ install multimarkdown
 install pandoc
 install jq
 install tig
+install gibo
 install w3m
 install httpie
 install casperjs --devel
