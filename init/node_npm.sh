@@ -8,6 +8,7 @@ npm update -g npm
 #
 
 # Titanium
+npm install -g appcelerator
 npm install -g titanium
 npm install -g titanium-code-processor
 npm install -g alloy
