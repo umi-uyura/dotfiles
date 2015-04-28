@@ -197,6 +197,12 @@ $ open -a Go2Shell --args config
 * Terminal application to use: iTerm 2
 
 
+Locat
+-----
+
+* EasySIMBLを使ってインストール、有効化する
+
+
 MacZip4Win
 ----------
 

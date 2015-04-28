@@ -102,6 +102,8 @@ cask install quicklook-json 2> /dev/null
 cask install betterzipql 2> /dev/null
 cask install provisionql 2> /dev/null
 
+cask install easysimbl 2> /dev/null
+
 cask install monolingual 2> /dev/null
 
 
