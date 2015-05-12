@@ -46,6 +46,7 @@ npm install -g psi
 
 # Linter
 npm install -g jscs
+npm install -g jsxhint
 npm install -g jshint
 npm install -g jslint
 npm install -g plato
