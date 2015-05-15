@@ -49,3 +49,4 @@ Other site
 * [JSON Editor](http://jsoneditor.net/#air) - require Adobe AIR
 * [Iconion](http://iconion.com/) - require Adobe AIR
 * [Font Picker](http://www.fontpicker.net/air/) - require Adobe AIR
+* [Simple Comic](http://www.stiandrobak.com/CustomBuilds/Simple_Comic.php) - フォーク版
