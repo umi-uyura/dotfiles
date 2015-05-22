@@ -48,6 +48,7 @@ install terminal-notifier
 install pwgen
 install speedtest_cli
 install dark-mode
+install hicolor-icon-theme
 
 # Add tap
 
