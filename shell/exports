@@ -48,7 +48,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 export EMACS_HOME=$HOME/.emacs.d
 export PATH=$EMACS_HOME/bin:$PATH
-#export EDITOR='/Applications/Emacs.app/Contents/MacOS/bin/emacsclient'
+export EDITOR=emacsclient
 #export VISUAL='/Applications/Emacs.app/Contents/MacOS/bin/emacsclient'
 export ALTERNATE_EDITOR='/Applications/Emacs.app/Contents/MacOS/Emacs'
 

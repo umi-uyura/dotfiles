@@ -26,6 +26,7 @@ install mercurial
 install sl
 install lv
 install peco
+install fpp
 install go
 install sqlite
 link sqlite --force
