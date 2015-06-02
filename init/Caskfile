@@ -90,6 +90,7 @@ cask install maczip4win 2> /dev/null
 cask install clamxav 2> /dev/null  # Available on Mac App Store, but it's less features
 cask install accessmenubarapps 2> /dev/null
 cask install flux 2> /dev/null
+cask install numi 2> /dev/null
 
 cask install qlcolorcode 2> /dev/null
 cask install qlimagesize 2> /dev/null
