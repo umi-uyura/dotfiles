@@ -50,5 +50,6 @@ Other site
 * [JSON Editor](http://jsoneditor.net/#air) - require Adobe AIR
 * [Image2icon](http://www.img2icnsapp.com/)
 * [Iconion](http://iconion.com/) - require Adobe AIR
+* [Alpha Channel Remover for MAC OS X](http://alphachannelremover.blogspot.jp/)
 * [Font Picker](http://www.fontpicker.net/air/) - require Adobe AIR
 * [Simple Comic](http://www.stiandrobak.com/CustomBuilds/Simple_Comic.php) - フォーク版
