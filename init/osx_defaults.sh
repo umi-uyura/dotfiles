@@ -146,6 +146,14 @@ defaults write com.apple.screensaver askForPasswordDelay -int 5
 
 
 #
+# Keyboard
+#
+
+# 書類ごとに入力ソースを自動的に切り替える
+#defaults write com.apple.HIToolbox AppleGlobalTextInputProperties -dict TextInputGlobalPropertyPerContextInput -int 1
+
+
+#
 # Trackpad
 #
 
