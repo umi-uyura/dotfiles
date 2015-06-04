@@ -51,9 +51,10 @@ npm install -g jshint
 npm install -g jslint
 npm install -g plato
 
-# Debug
+# Debug/Test
 npm install -g node-inspector
 # npm install -g devil
+npm install -g blink-diff
 
 # Documents/Writing
 npm install -g livedown
