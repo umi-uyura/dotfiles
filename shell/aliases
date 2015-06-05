@@ -10,5 +10,6 @@ alias op='open'
 
 alias em='emacsclient -n'
 alias astudio='open ~/Applications/Android\ Studio.app'  # Run with Java 7
+alias appcstudio='open -a AppceleratorStudio.app'
 alias gipeco='gi $(gi list | gsed "s/,/\n/g" | peco | gsed "N; s/\n/,/g")'
 alias joepeco='joe $(joe list | gsed "s/,\s/\n/g" | peco | gsed "N; s/\n/ /g")'
