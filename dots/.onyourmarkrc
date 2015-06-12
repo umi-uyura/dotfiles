@@ -1,4 +1,4 @@
-export REGULAR_APPS=("Google Chrome.app" "Emacs.app" "TweetDeck.app")
+export REGULAR_APPS=("Google Chrome.app" "/usr/local/Cellar/emacs/24.4/Emacs.app" "TweetDeck.app")
 export SUB_APPS=("Flux.app" "Pocket.app")
 export TERMINAL_APP="iTerm"
 export WAIT_APPS_BOOT=3
