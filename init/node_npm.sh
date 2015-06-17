@@ -59,6 +59,7 @@ npm install -g blink-diff
 # Documents/Writing
 npm install -g livedown
 npm install -g mdr
+npm install -g csv2md
 
 # Utilities
 npm install -g npm-check-updates
