@@ -130,6 +130,7 @@ cask install font-noto-sans-japanese 2> /dev/null
 cask install font-noto-sans 2> /dev/null
 cask install font-noto-serif 2> /dev/null
 cask install font-source-code-pro 2> /dev/null
+cask install font-source-han-code-jp 2> /dev/null
 cask install font-inconsolata 2> /dev/null
 
 
