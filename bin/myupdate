@@ -102,6 +102,12 @@ fi
 #
 if [ $UPGRADE ]; then
   echo
+  echo "### Updating NPM ..."
+  echo
+  npm update -g npm
+  ndenv rehash
+
+  echo
   echo "### Updating Node packages ..."
   echo
   npm update -g
