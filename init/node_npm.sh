@@ -23,6 +23,7 @@ npm install -g tishadow --unsafe-perm
 npm install -g ti-inspector
 npm install -g dev.tiapp --unsafe-perm
 npm install -g tich
+npm install -g tisdk
 npm install -g ti-64
 npm install -g ti-deploygate-hook
 
