@@ -67,4 +67,5 @@ npm install -g npm-check-updates
 npm install -g npm-check
 npm install -g unused-deps
 npm install -g lice
+npm install -g license-checker
 npm install -g xcode-switch
