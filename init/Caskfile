@@ -81,7 +81,6 @@ cask install vlc 2> /dev/null
 cask install handbrake 2> /dev/null
 cask install mplayerx 2> /dev/null  # Available on Mac App Store, but it's old version
 cask install mplayer-osx-extended 2> /dev/null
-cask install audacity 2> /dev/null
 cask install gifrocket 2> /dev/null
 cask install licecap 2> /dev/null
 cask install unicorns 2> /dev/null
