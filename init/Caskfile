@@ -55,7 +55,6 @@ cask install virtualbox 2> /dev/null
 cask install vagrant 2> /dev/null
 cask install vagrant-manager 2> /dev/null
 cask install genymotion 2> /dev/null
-cask install simpholders 2> /dev/null
 cask install simpholders-2-alpha 2> /dev/null
 
 cask install postgres 2> /dev/null
