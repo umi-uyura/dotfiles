@@ -42,7 +42,7 @@ cask install dropbox 2> /dev/null
 cask install omnidisksweeper 2> /dev/null
 cask install android-file-transfer 2> /dev/null
 
-cask install github 2> /dev/null
+cask install github-desktop 2> /dev/null
 cask install gitup 2> /dev/null
 cask install svnx 2> /dev/null
 
