@@ -44,6 +44,7 @@ npm install -g stylus
 npm install -g stylestats
 npm install -g supervisor
 npm install -g psi
+npm install -g disc
 
 # Linter
 npm install -g jscs
