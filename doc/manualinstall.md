@@ -32,6 +32,7 @@ App Store
 * [VisualJSON](http://youknowone.github.io/VisualJSON/)
 * Sauce
 * SourceTree
+* [Speedy](http://seense.com/speedy/)
 * 1Checker
 
 
