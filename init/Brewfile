@@ -32,6 +32,7 @@ install go
 install sqlite
 link sqlite --force
 install mongodb
+install mycli
 install subversion
 install multimarkdown
 install pandoc
