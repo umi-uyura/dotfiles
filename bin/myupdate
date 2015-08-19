@@ -79,6 +79,9 @@ if [ $UPGRADE ]; then
   echo "### Updating Homebrew and Homebrew Cask ..."
   echo
   brew upgrade --all
+  brew cleanup
+  brew prune
+
   brewcaskupdate -u
 else
   echo
