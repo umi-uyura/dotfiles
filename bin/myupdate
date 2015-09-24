@@ -1,7 +1,22 @@
 #!/bin/sh
 
 #
-# My update routine
+# My update constant
+#
+
+TAG_SOFTWAREUPDATE="macapp"
+TAG_DOTFILES="dotfiles"
+TAG_DOTEMACS="dotemacs"
+TAG_EMACSCASK="emacscask"
+TAG_HOMEBREWS="homebrews"
+TAG_ANYENV="anyenv"
+TAG_NODE="node"
+TAG_RUBYGEMS="rubygems"
+TAG_VAGRANT="vagrant"
+TAGS=($TAG_SOFTWAREUPDATE $TAG_DOTFILES $TAG_DOTEMACS $TAG_EMACSCASK $TAG_HOMEBREWS $TAG_ANYENV $TAG_NODE $TAG_RUBYGEMS $TAG_VAGRANT)
+
+#
+# My update function
 #
 
 function usage()
@@ -10,141 +25,217 @@ function usage()
 My update routine
 usage : $CMDNAME [option]
    -u : upgrade the app there is updates
+        skip process, specify under tags
+EOF
+
+  for tag in "${TAGS[@]}"
+  do
+    echo "          ${tag}"
+  done
+
+  cat << EOF
    -h : show usage
 EOF
 }
 
-while getopts hu OPT
+function skiptag()
+{
+  SKIPTAGARRAY=(`echo $SKIPTAG | tr -s ',' ' '`)
+
+  for arg in "${SKIPTAGARRAY[@]}"
+  do
+    if [ "${arg}" = "$1" ]; then
+      return 0
+    fi
+  done
+
+  return 1
+}
+
+
+#
+# My update routine
+#
+
+while getopts :hu: OPT
 do
   case $OPT in
     u) UPGRADE=0
+       SKIPTAG=$OPTARG
        ;;
     h) usage
        exit 1
        ;;
+    \?) usage
+        exit 1
   esac
 done
 
 #
 # Software update
 #
-if [ $UPGRADE ]; then
-  echo
-  echo "### Updating Software updates ..."
-  echo
-  softwareupdate -i -a
-else
-  echo
-  echo "### Checking for Software updates ..."
-  echo
-  softwareupdate -l
+skiptag "${TAG_SOFTWAREUPDATE}"
+SKIP_SOFTWAREUPDATE=$?
+
+if [ 0 -ne $SKIP_SOFTWAREUPDATE ]; then
+  if [ $UPGRADE ]; then
+    echo
+    echo "### Updating Software updates ..."
+    echo
+    softwareupdate -i -a
+  else
+    echo
+    echo "### Checking for Software updates ..."
+    echo
+    softwareupdate -l
+  fi
 fi
 
 #
 # dotfiles
 #
-echo
-echo "### Checking for dotfiles updates ..."
-echo
-git -C ~/dotfiles remote show origin | tail -n 1
+skiptag "${TAG_DOTFILES}"
+SKIP_DOTFILES=$?
+
+if [ 0 -ne $SKIP_DOTFILES ]; then
+  echo
+  echo "### Checking for dotfiles updates ..."
+  echo
+  git -C ~/dotfiles remote show origin | tail -n 1
+fi
 
 #
 # .emacs.d
 #
-echo
-echo "### Checking for .emacs.d updates ..."
-echo
-git -C ~/.emacs.d remote show origin | tail -n 1
+skiptag "${TAG_DOTEMACS}"
+SKIP_DOTEMACS=$?
+
+if [ 0 -ne $SKIP_DOTEMACS ]; then
+  echo
+  echo "### Checking for .emacs.d updates ..."
+  echo
+  git -C ~/.emacs.d remote show origin | tail -n 1
+fi
 
 #
 # Emacs Cask
 #
-if [ $UPGRADE ]; then
-  echo
-  echo "### Updating Emacs casks ..."
-  echo
-  cask update --path ~/.emacs.d/
-else
-  echo
-  echo "### Checking for Emacs casks updates..."
-  echo
-  cask outdated --path ~/.emacs.d/
+skiptag "${TAG_EMACSCASK}"
+SKIP_EMACSCASK=$?
+
+if [ 0 -ne $SKIP_EMACSCASK ]; then
+  if [ $UPGRADE ]; then
+    echo
+    echo "### Updating Emacs casks ..."
+    echo
+    cask update --path ~/.emacs.d/
+  else
+    echo
+    echo "### Checking for Emacs casks updates..."
+    echo
+    cask outdated --path ~/.emacs.d/
+  fi
 fi
 
 #
 # Homebrew & Homebrew Cask
 #
-if [ $UPGRADE ]; then
-  echo
-  echo "### Updating Homebrew and Homebrew Cask ..."
-  echo
-  brew upgrade --all
-  brew cleanup
-  brew prune
+skiptag "${TAG_HOMEBREWS}"
+SKIP_HOMEBREWS=$?
 
-  brewcaskupdate -u
-else
-  echo
-  echo "### Checking for Homebrew and Homebrew Cask updates ..."
-  echo
-  brewcaskupdate
+if [ 0 -ne $SKIP_HOMEBREWS ]; then
+  if [ $UPGRADE ]; then
+    echo
+    echo "### Updating Homebrew and Homebrew Cask ..."
+    echo
+    brew upgrade --all
+    brew cleanup
+    brew prune
+
+    brewcaskupdate -u
+  else
+    echo
+    echo "### Checking for Homebrew and Homebrew Cask updates ..."
+    echo
+    brewcaskupdate
+  fi
 fi
 
 #
 # anyenv
 #
-if [ $UPGRADE ]; then
-  echo
-  echo "### Updating anyenv ..."
-  echo
-  anyenv update
+skiptag "${TAG_ANYENV}"
+SKIP_ANYENV=$?
+
+if [ 0 -ne $SKIP_ANYENV ]; then
+  if [ $UPGRADE ]; then
+    echo
+    echo "### Updating anyenv ..."
+    echo
+    anyenv update
+  fi
 fi
 
 #
 # Node packages
 #
-if [ $UPGRADE ]; then
-  echo
-  echo "### Updating NPM ..."
-  echo
-  npm update -g npm
-  ndenv rehash
+skiptag "${TAG_NODE}"
+SKIP_NODE=$?
 
-  echo
-  echo "### Updating Node packages ..."
-  echo
-  npm update -g
-  npm cache clean
-  ndenv rehash
-else
-  echo
-  echo "### Checking for Node package updates ..."
-  echo
-  npm-check-updates -g
+if [ 0 -ne $SKIP_NODE ]; then
+  if [ $UPGRADE ]; then
+    echo
+    echo "### Updating NPM ..."
+    echo
+    npm update -g npm
+    ndenv rehash
+
+    echo
+    echo "### Updating Node packages ..."
+    echo
+    npm update -g
+    npm cache clean
+    ndenv rehash
+  else
+    echo
+    echo "### Checking for Node package updates ..."
+    echo
+    npm-check-updates -g
+  fi
 fi
 
 #
 # Rubygems
 #
-if [ $UPGRADE ]; then
-  echo
-  echo "### Updating Rubygems ..."
-  echo
-  update_rubygems
-  gem update
-  gem clean
-  rbenv rehash
-else
-  echo
-  echo "### Checking for Rubygem updates ..."
-  echo
-  gem outdated
+skiptag "${TAG_RUBYGEMS}"
+SKIP_RUBYGEMS=$?
+
+if [ 0 -ne $SKIP_RUBYGEMS ]; then
+  if [ $UPGRADE ]; then
+    echo
+    echo "### Updating Rubygems ..."
+    echo
+    update_rubygems
+    gem update
+    gem clean
+    rbenv rehash
+  else
+    echo
+    echo "### Checking for Rubygem updates ..."
+    echo
+    gem outdated
+  fi
 fi
 
 #
 # Vagrant plugins
 #
-echo
-echo "### Updating vagrant plugins ..."
-echo
-vagrant plugin update
+skiptag "${TAG_VAGRANT}"
+SKIP_VAGRANT=$?
+
+if [ 0 -ne $SKIP_VAGRANT ]; then
+  echo
+  echo "### Updating vagrant plugins ..."
+  echo
+  vagrant plugin update
+fi
