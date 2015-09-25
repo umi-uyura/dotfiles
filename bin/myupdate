@@ -60,14 +60,23 @@ function skiptag()
 while getopts :hu: OPT
 do
   case $OPT in
-    u) UPGRADE=0
+    u) echo "-u"
+       UPGRADE=0
        SKIPTAG=$OPTARG
        ;;
     h) usage
        exit 1
        ;;
+    :) if [ "u" = "$OPTARG" ]; then
+         UPGRADE=0
+         break
+       fi
+       echo "ERROR $OPTARG"
+       exit 1
+       ;;
     \?) usage
-        exit 1
+       exit 1
+       ;;
   esac
 done
 
