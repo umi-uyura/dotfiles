@@ -25,12 +25,14 @@ export PATH=/usr/local/bin:$PATH
 # dotfiles
 export PATH=$HOME/dotfiles/bin:$PATH
 
+# bist
+export PATH=$HOME/.bist/bin:$PATH
+
 # anyenv
 if [ -d $HOME/.anyenv ] ; then
   export PATH="$HOME/.anyenv/bin:$PATH"
   eval "$(anyenv init -)"
 fi
-
 
 #
 # Homebrew

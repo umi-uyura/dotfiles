@@ -74,6 +74,10 @@ $ ./go_gets.sh && goenv rehash
 
 # Application configuration
 # /init/apps/*.sh
+
+# Install shell scripts with bist (https://github.com/mattak/bist)
+$ curl -L https://raw.github.com/mattak/bist/master/install.sh >& /dev/null | sh
+$ ./bist.sh && bist rehash
 ```
 
 * Manual settings, see `doc/manualsettings.md`
