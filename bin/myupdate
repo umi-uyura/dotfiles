@@ -7,13 +7,14 @@
 TAG_SOFTWAREUPDATE="macapp"
 TAG_DOTFILES="dotfiles"
 TAG_DOTEMACS="dotemacs"
+TAG_BIST="bist"
 TAG_EMACSCASK="emacscask"
 TAG_HOMEBREWS="homebrews"
 TAG_ANYENV="anyenv"
 TAG_NODE="node"
 TAG_RUBYGEMS="rubygems"
 TAG_VAGRANT="vagrant"
-TAGS=($TAG_SOFTWAREUPDATE $TAG_DOTFILES $TAG_DOTEMACS $TAG_EMACSCASK $TAG_HOMEBREWS $TAG_ANYENV $TAG_NODE $TAG_RUBYGEMS $TAG_VAGRANT)
+TAGS=($TAG_SOFTWAREUPDATE $TAG_DOTFILES $TAG_DOTEMACS $TAG_BIST $TAG_EMACSCASK $TAG_HOMEBREWS $TAG_ANYENV $TAG_NODE $TAG_RUBYGEMS $TAG_VAGRANT)
 
 #
 # My update function
@@ -124,6 +125,20 @@ if [ 0 -ne $SKIP_DOTEMACS ]; then
   echo "### Checking for .emacs.d updates ..."
   echo
   git -C ~/.emacs.d remote show origin | tail -n 1
+fi
+
+#
+# bist
+#
+skiptag "${TAG_BIST}"
+SKIP_BIST=$?
+
+if [ 0 -ne $SKIP_BIST ]; then
+  echo
+  echo "### Updating bist..."
+  echo
+  bist update
+  bist rehash
 fi
 
 #
