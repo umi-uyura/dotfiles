@@ -16,6 +16,7 @@ App Store
 * Pocket
 * Evernote
 * Skitch
+* [CotEditor](http://coteditor.com/)
 * [Explainer Screenshots](http://kitestack.com/explainer/)
 * [Dash](http://kapeli.com/dash)
 * LINE
