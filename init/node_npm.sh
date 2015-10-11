@@ -68,3 +68,4 @@ npm install -g unused-deps
 npm install -g lice
 npm install -g license-checker
 npm install -g xcode-switch
+npm install -g speed-test
