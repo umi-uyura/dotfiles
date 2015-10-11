@@ -55,11 +55,9 @@ npm install -g plato
 
 # Debug/Test
 npm install -g node-inspector
-# npm install -g devil
 npm install -g blink-diff
 
 # Documents/Writing
-npm install -g livedown
 npm install -g mdr
 npm install -g csv2md
 
