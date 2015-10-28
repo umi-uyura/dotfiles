@@ -48,9 +48,8 @@ npm install -g disc
 
 # Linter
 npm install -g jscs
-npm install -g jsxhint
-npm install -g jshint
-npm install -g jslint
+npm install -g eslint
+npm install -g eslint-plugin-react
 npm install -g plato
 
 # Debug/Test
