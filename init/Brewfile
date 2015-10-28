@@ -55,6 +55,9 @@ install hicolor-icon-theme
 
 # Add tap
 
+tap homebrew/completions
+install brew-cask-completion
+
 tap karan/karan
 install gitignore
 
