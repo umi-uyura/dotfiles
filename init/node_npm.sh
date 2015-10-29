@@ -50,6 +50,7 @@ npm install -g disc
 npm install -g jscs
 npm install -g eslint
 npm install -g eslint-plugin-react
+npm install -g jsonlint
 npm install -g plato
 
 # Debug/Test
