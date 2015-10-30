@@ -25,6 +25,7 @@ npm install -g dev.tiapp --unsafe-perm
 npm install -g tich
 npm install -g tisdk
 npm install -g ti-64
+npm install -g timodules
 npm install -g ti-deploygate-hook
 
 # Phonegap/Cordova
