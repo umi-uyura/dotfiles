@@ -101,6 +101,13 @@ Alfred 2
             * 追加 ※ *Reset* を押したら自動的に追加される？
                 * `/opt/homebrew-cask/Caskroom`
                 * `/usr/local/Cellar`
+    * Web Search
+        * DevDocs (Custom Search)
+            * Search URL: http://devdocs.io/#q={query}
+                * Encode query using UTF8: true
+            * Title: DevDocs
+            * Keyword: devdocs
+            * Validation: alfredapp
 * Appearance
     * Theme: OS X Yosemite Dark
 
