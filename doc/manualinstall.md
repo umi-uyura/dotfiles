@@ -25,6 +25,7 @@ App Store
 * [iMage Tools](http://www.icyblaze.com/imagetools/)
 * Autodesk Pixir
 * iConify
+* [Image2icon](http://www.img2icnsapp.com/)
 * [Status Barred](http://www.sonicshore.com/os-x/)
 * [Quick CSS Sprite](http://www.tweaknow.com/quickcsssprite.php)
 * [Koala](http://koala-app.com/)
@@ -51,7 +52,6 @@ Other site
 * [SimulatorManager](https://github.com/tue-savvy/SimulatorManager)
 * [Shupapan](http://sunsky3s.s41.xrea.com/shupapan/)
 * [Cacoo Ninja](https://cacoo.com/lang/ja/extension)
-* [Image2icon](http://www.img2icnsapp.com/)
 * [Iconion](http://iconion.com/) - require Adobe AIR
 * [Alpha Channel Remover for MAC OS X](http://alphachannelremover.blogspot.jp/)
 * [Audacity](http://audacityteam.org/)
