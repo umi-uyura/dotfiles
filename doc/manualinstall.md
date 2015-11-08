@@ -48,6 +48,7 @@ Other site
 * [Form](http://www.relativewave.com/form/)
 * [Alternote](http://alternoteapp.com/)
 * [NeighborNote](http://puma.cis.ibaraki.ac.jp/products/neighbornote/) - Yosemiteで起動しない？
+* [SimulatorManager](https://github.com/tue-savvy/SimulatorManager)
 * [Shupapan](http://sunsky3s.s41.xrea.com/shupapan/)
 * [Cacoo Ninja](https://cacoo.com/lang/ja/extension)
 * [JSON Editor](http://jsoneditor.net/#air) - require Adobe AIR
