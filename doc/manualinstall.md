@@ -45,10 +45,6 @@ Other site
 * [Android SDK](http://developer.android.com/sdk/index.html)
 * [Eclipse](https://eclipse.org/)
 	* [ER Master](http://ermaster.sourceforge.net/index_ja.html)
-* [GapDebug](https://www.genuitec.com/products/gapdebug/)
-* [Form](http://www.relativewave.com/form/)
-* [Alternote](http://alternoteapp.com/)
-* [NeighborNote](http://puma.cis.ibaraki.ac.jp/products/neighbornote/) - Yosemiteで起動しない？
 * [SimulatorManager](https://github.com/tue-savvy/SimulatorManager)
 * [Shupapan](http://sunsky3s.s41.xrea.com/shupapan/)
 * [Cacoo Ninja](https://cacoo.com/lang/ja/extension)
@@ -57,3 +53,11 @@ Other site
 * [Audacity](http://audacityteam.org/)
 * [Font Picker](http://www.fontpicker.net/air/) - require Adobe AIR
 * [Simple Comic](http://www.stiandrobak.com/CustomBuilds/Simple_Comic.php) - フォーク版
+
+
+### Candidate
+
+* [GapDebug](https://www.genuitec.com/products/gapdebug/)
+* [Form](http://www.relativewave.com/form/)
+* [Alternote](http://alternoteapp.com/)
+* [NeighborNote](http://puma.cis.ibaraki.ac.jp/products/neighbornote/) - Yosemiteで起動しない？
