@@ -51,7 +51,6 @@ Other site
 * [SimulatorManager](https://github.com/tue-savvy/SimulatorManager)
 * [Shupapan](http://sunsky3s.s41.xrea.com/shupapan/)
 * [Cacoo Ninja](https://cacoo.com/lang/ja/extension)
-* [JSON Editor](http://jsoneditor.net/#air) - require Adobe AIR
 * [Image2icon](http://www.img2icnsapp.com/)
 * [Iconion](http://iconion.com/) - require Adobe AIR
 * [Alpha Channel Remover for MAC OS X](http://alphachannelremover.blogspot.jp/)
