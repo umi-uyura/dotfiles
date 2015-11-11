@@ -13,21 +13,32 @@
     "react"
   ],
   "rules": {
-    "indent": [2, 2, {
-      "VariableDeclarator": { "var": 2, "let": 2, "const": 3}
+    "indent": [2, 2, {                          // インデントはスペース2個を基本(fixable)
+      "VariableDeclarator": {"var": 2, "let": 2, "const": 3}
     }],
-    "quotes": [2, "single"],
-    "linebreak-style": [2],
-    "semi": [2, "always"],
+    "quotes": [2, "single"],                    // 引用符はシングルクォーテーションを使う
+    "linebreak-style": 2,                       // 改行コードは統一する
+    "semi": [2, "always"],                      // セミコロンは必ずつける
+    "block-scoped-var": 2,                      // 変数はブロックスコープ内でのみ使える
+    "consistent-return": 2,                     // 値を返さないステートメントと返すステートメントの混在を許可しない
+    "curly": 2,                                 // 制御文では中括弧をつける
+    "default-case": 2,                          // case文のdefaultは必須
+    "dot-notation": 2,                          // プロパティはドットを使ってアクセスする（フラット記法を使わない）
+    "dot-location": 2,                          // ドットの後ろで改行しない
+    "eqeqeq": [2, "smart"],                     // 変数の比較では厳密な比較をおこなう
+    "guard-for-in": 1,                          // for-inを使う場合、hasOwnPropertyでプロパティを検査する
+    "no-alert": 1,                              // alertは警告
+    "no-cond-assign": [2, "always"],            // 条件式内での代入を許可しない (recommended+)
+    "no-console": 0,                            // consoleの使用は許可する
     "react/display-name": 1,
     "react/forbid-prop-types": 1,
     "react/jsx-boolean-value": 1,
     "react/jsx-closing-bracket-location": 1,
     "react/jsx-curly-spacing": 1,
-    "react/jsx-indent-props": 1,
+    "react/jsx-indent-props": 0,                // propsのインデントチェックは無視（ESLint相当の設定を待つ）
     "react/jsx-max-props-per-line": 1,
     "react/jsx-no-duplicate-props": 1,
-    "react/jsx-no-literals": 1,
+    "react/jsx-no-literals": 0,                 // ブラケットに囲まれていないJSXリテラルを許可
     "react/jsx-no-undef": 1,
     "react/jsx-quotes": 1,
     "react/jsx-sort-prop-types": 1,
