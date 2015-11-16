@@ -30,6 +30,7 @@
     "no-alert": 1,                              // alertは警告
     "no-cond-assign": [2, "always"],            // 条件式内での代入を許可しない (recommended+)
     "no-console": 0,                            // consoleの使用は許可する
+    "jsx-quotes": 1,                            // JSXプロパティの引用符はダブルクォーテーションを使う
     "react/display-name": 1,
     "react/forbid-prop-types": 1,
     "react/jsx-boolean-value": 1,
@@ -40,7 +41,6 @@
     "react/jsx-no-duplicate-props": 1,
     "react/jsx-no-literals": 0,                 // ブラケットに囲まれていないJSXリテラルを許可
     "react/jsx-no-undef": 1,
-    "react/jsx-quotes": 1,
     "react/jsx-sort-prop-types": 1,
     "react/jsx-sort-props": 1,
     "react/jsx-uses-react": 1,
