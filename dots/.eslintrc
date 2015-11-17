@@ -1,5 +1,8 @@
 {
-  "extends": "eslint:recommended",
+  "extends": [
+    "eslint:recommended",
+    "titanium"
+  ],
   "env" : {
     "browser": true,
     "node": true,
@@ -59,21 +62,5 @@
     "react/self-closing-comp": 1,
     "react/sort-comp": 1,
     "react/wrap-multilines": 1
-  },
-  "globals": {
-    "Titanium": false,
-    "Ti": false,
-    "Alloy": false,
-    "$": false,
-    "_": false,
-    "OS_IOS": false,
-    "OS_ANDROID": false,
-    "OS_MOBILEWEB": false,
-    "OS_WINDOWS": false,
-    "ENV_DEV": false,
-    "ENV_TEST": false,
-    "ENV_PRODUCTION": false,
-    "DIST_ADHOC": false,
-    "DIST_STORE": false
   }
 }

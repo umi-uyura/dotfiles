@@ -28,6 +28,7 @@ npm install -g tisdk
 npm install -g ti-64
 npm install -g timodules
 npm install -g ti-deploygate-hook
+npm install -g umi-uyura/eslint-config-titanium
 
 # Phonegap/Cordova
 npm install -g phonegap
