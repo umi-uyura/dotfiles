@@ -19,7 +19,7 @@
     "indent": [2, 2, {                          // インデントはスペース2個を基本(fixable)
       "VariableDeclarator": {"var": 2, "let": 2, "const": 3}
     }],
-    "quotes": [2, "single"],                    // 引用符はシングルクォーテーションを使う
+    "quotes": [2, "single"],                    // 引用符はシングルクォーテーションを使う (fixable)
     "linebreak-style": 2,                       // 改行コードは統一する
     "semi": [2, "always"],                      // セミコロンは必ずつける
     "block-scoped-var": 2,                      // 変数はブロックスコープ内でのみ使える
@@ -32,7 +32,7 @@
     "guard-for-in": 1,                          // for-inを使う場合、hasOwnPropertyでプロパティを検査する
     "no-alert": 1,                              // alertは警告
     "no-cond-assign": [2, "always"],            // 条件式内での代入を許可しない (recommended+)
-    "no-console": 0,                            // consoleの使用は許可する
+    "no-console": 1,                            // consoleが使用されている場合は警告
     "jsx-quotes": 1,                            // JSXプロパティの引用符はダブルクォーテーションを使う
     "react/display-name": 1,
     "react/forbid-prop-types": 1,
