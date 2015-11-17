@@ -66,6 +66,7 @@ cask install caprine 2> /dev/null
 
 cask install filezilla 2> /dev/null
 cask install cyberduck 2> /dev/null
+cask install private-eye 2> /dev/null
 
 cask install imageoptim 2> /dev/null
 cask install imagealpha 2> /dev/null
