@@ -25,6 +25,7 @@ App Store
 * [iMage Tools](http://www.icyblaze.com/imagetools/)
 * Autodesk Pixir
 * iConify
+* [Icon Set Creator](http://nicolasmiari.com/utilities/icon-set-creator/)
 * [Image2icon](http://www.img2icnsapp.com/)
 * [Status Barred](http://www.sonicshore.com/os-x/)
 * [Quick CSS Sprite](http://www.tweaknow.com/quickcsssprite.php)
