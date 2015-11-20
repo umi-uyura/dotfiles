@@ -1,7 +1,6 @@
 {
   "extends": [
-    "eslint:recommended",
-    "titanium"
+    "eslint:recommended"
   ],
   "env" : {
     "browser": true,
@@ -16,24 +15,37 @@
     "react"
   ],
   "rules": {
-    "indent": [2, 2, {                          // インデントはスペース2個を基本(fixable)
+    // Relues: Possible Errors
+    "indent": [2, 2, {                          // インデントはスペース2個を基本 (fixable)
       "VariableDeclarator": {"var": 2, "let": 2, "const": 3}
     }],
-    "quotes": [2, "single"],                    // 引用符はシングルクォーテーションを使う (fixable)
-    "linebreak-style": 2,                       // 改行コードは統一する
-    "semi": [2, "always"],                      // セミコロンは必ずつける
+    "no-cond-assign": [2, "always"],            // 条件式内での代入を許可しない (recommended+)
+    "no-console": 0,                            // [for Ti] consoleが使用は許可 (recommended-)
+
+    // Rules: Best Practices
     "block-scoped-var": 2,                      // 変数はブロックスコープ内でのみ使える
     "consistent-return": 2,                     // 値を返さないステートメントと返すステートメントの混在を許可しない
     "curly": 2,                                 // 制御文では中括弧をつける
     "default-case": 2,                          // case文のdefaultは必須
-    "dot-notation": 2,                          // プロパティはドットを使ってアクセスする（フラット記法を使わない）
     "dot-location": 2,                          // ドットの後ろで改行しない
-    "eqeqeq": [2, "smart"],                     // 変数の比較では厳密な比較をおこなう
+    "dot-notation": 2,                          // プロパティはドットを使ってアクセスする（フラット記法を使わない）
+    "eqeqeq": [2, "smart"],                     // 変数の比較では厳密な比較をおこなう (fixable)
     "guard-for-in": 1,                          // for-inを使う場合、hasOwnPropertyでプロパティを検査する
-    "no-alert": 1,                              // alertは警告
-    "no-cond-assign": [2, "always"],            // 条件式内での代入を許可しない (recommended+)
-    "no-console": 1,                            // consoleが使用されている場合は警告
+    "no-alert": 0,                              // [for Ti] alertは許可
+
+    // Rules: Variables
+    // "no-unused-vars": [1, {                     // (recommended+)
+    //   "vars": "all", "args": "all"              // 未使用変数は警告
+    // }],
+    "no-unused-vars": 0,                        // [for Ti] 未使用変数を許可 (recommended-)
+                                                // ※Alloy XML/TSS/JSで紐付けるfunctionが発生するため
+    // Rules: Stylistic Issues
     "jsx-quotes": 1,                            // JSXプロパティの引用符はダブルクォーテーションを使う
+    "linebreak-style": 2,                       // 改行コードは統一する
+    "quotes": [2, "single"],                    // 引用符はシングルクォーテーションを使う (fixable)
+    "semi": [2, "always"],                      // セミコロンは必ずつける (fixable)
+
+    // eslint-config-react
     "react/display-name": 1,
     "react/forbid-prop-types": 1,
     "react/jsx-boolean-value": 1,
@@ -62,5 +74,23 @@
     "react/self-closing-comp": 1,
     "react/sort-comp": 1,
     "react/wrap-multilines": 1
+  },
+  "globals": {
+    // for Titanium/Alloy
+    "Titanium": false,
+    "Ti": false,
+    "Alloy": false,
+    "$": false,
+    "_": false,
+    "OS_IOS": false,
+    "OS_ANDROID": false,
+    "OS_MOBILEWEB": false,
+    "OS_WINDOWS": false,
+    "ENV_DEV": false,
+    "ENV_TEST": false,
+    "ENV_PRODUCTION": false,
+    "DIST_ADHOC": false,
+    "DIST_STORE": false,
+    "task": false
   }
 }
