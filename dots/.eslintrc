@@ -56,6 +56,7 @@
     "react/jsx-no-duplicate-props": 1,
     "react/jsx-no-literals": 0,                 // ブラケットに囲まれていないJSXリテラルを許可
     "react/jsx-no-undef": 1,
+    "react/jsx-pascal-case": 1,                 // ユーザー定義JSXコンポーネントはパスカルケースで参照する
     "react/jsx-sort-prop-types": 1,
     "react/jsx-sort-props": 1,
     "react/jsx-uses-react": 1,
