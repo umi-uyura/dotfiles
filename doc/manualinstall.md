@@ -49,6 +49,7 @@ Other site
 	* [ER Master](http://ermaster.sourceforge.net/index_ja.html)
 * [SimulatorManager](https://github.com/tue-savvy/SimulatorManager)
 * [Shupapan](http://sunsky3s.s41.xrea.com/shupapan/)
+* [zz85/space-radar](https://github.com/zz85/space-radar) - ストレージ使用量可視化ツール
 * [Cacoo Ninja](https://cacoo.com/lang/ja/extension)
 * [Iconion](http://iconion.com/) - require Adobe AIR
 * [Alpha Channel Remover for MAC OS X](http://alphachannelremover.blogspot.jp/)
