@@ -52,6 +52,7 @@ Other site
 * [Cacoo Ninja](https://cacoo.com/lang/ja/extension)
 * [Iconion](http://iconion.com/) - require Adobe AIR
 * [Alpha Channel Remover for MAC OS X](http://alphachannelremover.blogspot.jp/)
+* [mortenjust/droptogif](https://github.com/mortenjust/droptogif) - 動画をアニメーションGIF化
 * [Audacity](http://audacityteam.org/)
 * [Font Picker](http://www.fontpicker.net/air/) - require Adobe AIR
 * [Simple Comic](http://www.stiandrobak.com/CustomBuilds/Simple_Comic.php) - フォーク版
