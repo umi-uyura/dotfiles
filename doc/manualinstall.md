@@ -35,6 +35,7 @@ App Store
 * [Kobito](http://kobito.qiita.com/ja)
 * [VisualJSON](http://youknowone.github.io/VisualJSON/)
 * Sauce
+* [Integrity](http://peacockmedia.software/mac/integrity/) - リンク切れチェッカー
 * SourceTree
 * [Speedy](http://seense.com/speedy/)
 * 1Checker
