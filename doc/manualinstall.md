@@ -30,6 +30,7 @@ App Store
 * [Image2icon](http://www.img2icnsapp.com/)
 * [Status Barred](http://www.sonicshore.com/os-x/)
 * [Quick CSS Sprite](http://www.tweaknow.com/quickcsssprite.php)
+* [GifGrabber](http://www.gifgrabber.com/)
 * [Koala](http://koala-app.com/)
 * [Sip](http://www.theolabrothers.com/sip/)
 * [Kobito](http://kobito.qiita.com/ja)
