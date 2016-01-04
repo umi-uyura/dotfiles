@@ -13,8 +13,9 @@ TAG_HOMEBREWS="homebrews"
 TAG_ANYENV="anyenv"
 TAG_NODE="node"
 TAG_RUBYGEMS="rubygems"
+TAG_HEROKU="heroku"
 TAG_VAGRANT="vagrant"
-TAGS=($TAG_SOFTWAREUPDATE $TAG_DOTFILES $TAG_DOTEMACS $TAG_BIST $TAG_EMACSCASK $TAG_HOMEBREWS $TAG_ANYENV $TAG_NODE $TAG_RUBYGEMS $TAG_VAGRANT)
+TAGS=($TAG_SOFTWAREUPDATE $TAG_DOTFILES $TAG_DOTEMACS $TAG_BIST $TAG_EMACSCASK $TAG_HOMEBREWS $TAG_ANYENV $TAG_NODE $TAG_RUBYGEMS $TAG_HEROKU $TAG_VAGRANT)
 
 #
 # My update function
@@ -249,6 +250,19 @@ if [ 0 -ne $SKIP_RUBYGEMS ]; then
     echo
     gem outdated
   fi
+fi
+
+#
+# Heroku plugins
+#
+skiptag "${TAG_HEROKU}"
+SKIP_HEROKU=$?
+
+if [ 0 -ne $SKIP_HEROKU ]; then
+  echo
+  echo "### Updating heroku plugins ..."
+  echo
+  heroku plugins:update
 fi
 
 #
