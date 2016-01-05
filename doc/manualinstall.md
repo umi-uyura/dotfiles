@@ -49,6 +49,7 @@ Other site
 * [Android SDK](http://developer.android.com/sdk/index.html)
 * [Eclipse](https://eclipse.org/)
 	* [ER Master](http://ermaster.sourceforge.net/index_ja.html)
+* [SQL Tabs](http://www.sqltabs.com/) - PostgreSQL管理ツール
 * [SimulatorManager](https://github.com/tue-savvy/SimulatorManager)
 * [Shupapan](http://sunsky3s.s41.xrea.com/shupapan/)
 * [zz85/space-radar](https://github.com/zz85/space-radar) - ストレージ使用量可視化ツール
