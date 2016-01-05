@@ -74,6 +74,7 @@ cask install imagealpha 2> /dev/null
 cask install inkscape 2> /dev/null
 cask install gimp 2> /dev/null
 cask install paintbrush 2> /dev/null
+cask install linear 2> /dev/null
 
 cask install vlc 2> /dev/null
 cask install handbrake 2> /dev/null
