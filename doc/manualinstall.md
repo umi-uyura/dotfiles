@@ -17,6 +17,7 @@ App Store
 * Pocket
 * Evernote
 * Skitch
+* [Kobito](http://kobito.qiita.com/)
 * [CotEditor](http://coteditor.com/)
 * [Explainer Screenshots](http://kitestack.com/explainer/)
 * [Dash](http://kapeli.com/dash)
@@ -33,7 +34,6 @@ App Store
 * [GifGrabber](http://www.gifgrabber.com/)
 * [Koala](http://koala-app.com/)
 * [Sip](http://www.theolabrothers.com/sip/)
-* [Kobito](http://kobito.qiita.com/ja)
 * [VisualJSON](http://youknowone.github.io/VisualJSON/)
 * Sauce
 * [Integrity](http://peacockmedia.software/mac/integrity/) - リンク切れチェッカー
