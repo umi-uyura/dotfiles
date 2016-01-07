@@ -87,7 +87,7 @@ cask install unicorns 2> /dev/null
 cask install appcleaner 2> /dev/null
 cask install maczip4win 2> /dev/null
 
-cask install sophos-anti-virus-home-edition 2> /dev/null
+cask install avira-antivirus 2> /dev/null
 cask install accessmenubarapps 2> /dev/null
 cask install flux 2> /dev/null
 cask install numi 2> /dev/null
