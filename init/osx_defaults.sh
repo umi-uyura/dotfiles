@@ -4,6 +4,9 @@
 # Global
 #
 
+# 通常スリープ(Safe Sleepは使わない)
+sudo pmset -a hibernatemode 0
+
 # 起動音を小さく
 sudo nvram SystemAudioVolume=%05
 
