@@ -1,0 +1,20 @@
+
+# fix, add, changeといった事実ではなく、このcommitで実現する要件や仕様を書きましょう。（リファクタなどは除く）
+#
+# Example:
+# - Fix typo in docs
+# - Remove unused code
+# - Remove use of deprecated method
+# - Update Modernizr to v1.6
+# - Make it possible to have IDs per request
+# - Make sure to reset default_url_options
+# - Don't use "assert_not_nil"
+# - Allow the user to drag faster
+# - Remove methods to avoid warnings.
+#
+# Reference:
+# - 提言: コミットメッセージの一行目には要求仕様を書け
+#   (http://qiita.com/magicant/items/882b5142c4d5064933bc)
+# - GitHubで使われている実用英語コメント集
+#   (http://qiita.com/shi_chicken/items/a5f922a3ef3aa58a1839)
+#

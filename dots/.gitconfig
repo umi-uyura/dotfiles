@@ -33,3 +33,6 @@
 	tags = tag -l
 	fp = fetch --prune
 	export = archive HEAD --format=zip --worktree-attributes
+
+[commit]
+	template = ~/.gitmessage.txt
