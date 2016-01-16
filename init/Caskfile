@@ -52,6 +52,7 @@ cask install heroku-toolbelt 2> /dev/null
 cask install ios-console 2> /dev/null
 
 cask install virtualbox 2> /dev/null
+cask install virtualbox-extension-pack 2> /dev/null
 cask install vagrant 2> /dev/null
 cask install vagrant-manager 2> /dev/null
 cask install genymotion 2> /dev/null
