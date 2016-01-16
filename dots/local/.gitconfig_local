@@ -1,14 +1,14 @@
+# -*- mode: gitconfig -*-
 #
 # .gitconfig_local
 #
 
-
 [hub]
-    protocol = https
+	protocol = https
 
 [user]
-    name = EXAMPLE_USER
-    email = EXAMPLE_USER@EXAMPLE.COM
+	name = EXAMPLE_USER
+	email = EXAMPLE_USER@EXAMPLE.COM
 
 [push]
-    default = simple
+	default = simple

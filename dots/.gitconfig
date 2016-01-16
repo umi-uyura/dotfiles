@@ -3,33 +3,36 @@
 #
 
 [core]
-    excludesfile = ~/.gitignore
+	excludesfile = ~/.gitignore
 
 [include]
-    path = ~/.gitconfig_local
+	path = ~/.gitconfig_local
 
 [push]
-    default = simple
+	default = simple
 
 [color]
-    ui = auto
-    status = auto
-    diff = auto
-    branch = auto
-    interactive = auto
-    grep = auto
+	ui = auto
+	status = auto
+	diff = auto
+	branch = auto
+	interactive = auto
+	grep = auto
 
 [alias]
-    co = checkout
-    st = status --branch --short
-    sti = status --ignored --short
-    cm = commit -v --amend
-    branches = branch -a
-    remotes = remote -v
-    lg = log --graph --all --decorate --abbrev-commit --branches --date=short --pretty=format:\"%C(red)%h%C(reset) %C(green)[%ad]%C(reset) %s %C(cyan)@%an%C(reset) %C(yellow)%d%C(reset)\"
-    logg = log --stat --decorate=short --pretty=format:'%C(yellow)%h %Cgreen%cr %Creset%s %C(green)%b %C(cyan)%cn%Cred%d'
-    mergelog = log --merges --pretty=format:'%C(yellow)%h %Cgreen%ci %Creset%s %C(green)%b %C(cyan)%cn%Cred%d'
-    history = log --graph --date=short --decorate=short --pretty=format:'%C(yellow)%h %Cgreen%cd %Creset%s %C(cyan)@%cn%Cred%d'
-    tags = tag -l
-    fp = fetch --prune
-    export = archive HEAD --format=zip --worktree-attributes
+	co = checkout
+	st = status --branch --short
+	sti = status --ignored --short
+	cm = commit -v --amend
+	branches = branch -a
+	remotes = remote -v
+	lg = log --graph --all --decorate --abbrev-commit --branches --date=short --pretty=format:\"%C(red)%h%C(reset) %C(green)[%ad]%C(reset) %s %C(cyan)@%an%C(reset) %C(yellow)%d%C(reset)\"
+	logg = log --stat --decorate=short --pretty=format:'%C(yellow)%h %Cgreen%cr %Creset%s %C(green)%b %C(cyan)%cn%Cred%d'
+	mergelog = log --merges --pretty=format:'%C(yellow)%h %Cgreen%ci %Creset%s %C(green)%b %C(cyan)%cn%Cred%d'
+	history = log --graph --date=short --decorate=short --pretty=format:'%C(yellow)%h %Cgreen%cd %Creset%s %C(cyan)@%cn%Cred%d'
+	tags = tag -l
+	fp = fetch --prune
+	export = archive HEAD --format=zip --worktree-attributes
+
+[commit]
+	template = ~/.gitmessage.txt
