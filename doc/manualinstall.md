@@ -21,6 +21,7 @@ App Store
 * [CotEditor](http://coteditor.com/)
 * [Explainer Screenshots](http://kitestack.com/explainer/)
 * [Dash](http://kapeli.com/dash)
+* [SmartFinder](https://itunes.apple.com/jp/app/smartfinder/id1012930195?mt=12) - Androidのストレージをブラウズする
 * LINE
 * TweetDeck
 * ToyViewer
