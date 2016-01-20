@@ -46,6 +46,7 @@ Other site
 -----------
 
 * [Locat](https://github.com/hetima/Locat)
+* [Octosaver](https://github.com/kimar/Octosaver) - Octcatスクリーンセーバー
 * [Android SDK](http://developer.android.com/sdk/index.html)
 * [Eclipse](https://eclipse.org/)
 	* [ER Master](http://ermaster.sourceforge.net/index_ja.html)
