@@ -36,6 +36,7 @@ install mycli
 install subversion
 install multimarkdown
 install pandoc
+install diff-pdf
 install jq
 install tig
 install gibo
