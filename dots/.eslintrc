@@ -27,7 +27,7 @@
     "consistent-return": 2,                     // 値を返さないステートメントと返すステートメントの混在を許可しない
     "curly": 2,                                 // 制御文では中括弧をつける
     "default-case": 2,                          // case文のdefaultは必須
-    "dot-location": 2,                          // ドットの後ろで改行しない
+    "dot-location": [2, "property"],            // ドットの後ろの改行は許可しないが、プロパティ接続時は許可
     "dot-notation": 2,                          // プロパティはドットを使ってアクセスする（フラット記法を使わない）
     "eqeqeq": [2, "smart"],                     // 変数の比較では厳密な比較をおこなう (fixable)
     "guard-for-in": 1,                          // for-inを使う場合、hasOwnPropertyでプロパティを検査する
