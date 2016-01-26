@@ -56,6 +56,7 @@ Other site
 * [Shupapan](http://sunsky3s.s41.xrea.com/shupapan/)
 * [zz85/space-radar](https://github.com/zz85/space-radar) - ストレージ使用量可視化ツール
 * [Cacoo Ninja](https://cacoo.com/lang/ja/extension)
+* [ShotBot](http://shotbot.io/) - iTunes Connect用のスクリーンショット生成
 * [Iconion](http://iconion.com/) - require Adobe AIR
 * [Alpha Channel Remover for MAC OS X](http://alphachannelremover.blogspot.jp/)
 * [mortenjust/droptogif](https://github.com/mortenjust/droptogif) - 動画をアニメーションGIF化
