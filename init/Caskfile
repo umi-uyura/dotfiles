@@ -118,8 +118,6 @@ cask install monolingual 2> /dev/null
 
 tap caskroom/homebrew-unofficial
 
-cask install titanium-studio 2> /dev/null
-
 
 #
 # Install font casks
