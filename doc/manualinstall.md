@@ -30,6 +30,7 @@ App Store
 * iConify
 * [Icon Set Creator](http://nicolasmiari.com/utilities/icon-set-creator/)
 * [Image2icon](http://www.img2icnsapp.com/)
+* [Prepo 2](http://wearemothership.com/work/prepo/) - iOS/Macアプリ向けアイコン生成ツール
 * [Status Barred](http://www.sonicshore.com/os-x/)
 * [Quick CSS Sprite](http://www.tweaknow.com/quickcsssprite.php)
 * [GifGrabber](http://www.gifgrabber.com/)
