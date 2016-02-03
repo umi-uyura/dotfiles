@@ -48,6 +48,7 @@ npm install -g stylestats
 npm install -g supervisor
 npm install -g psi
 npm install -g disc
+npm install -g tern
 
 # Linter
 npm install -g jscs
