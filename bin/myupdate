@@ -112,7 +112,7 @@ if [ 0 -ne $SKIP_DOTFILES ]; then
   echo
   echo "### Checking for dotfiles updates ..."
   echo
-  git -C ~/dotfiles remote show origin | tail -n 1
+  git -C ~/dotfiles remote show origin | grep 'pushes to master'
 fi
 
 #
@@ -125,7 +125,7 @@ if [ 0 -ne $SKIP_DOTEMACS ]; then
   echo
   echo "### Checking for .emacs.d updates ..."
   echo
-  git -C ~/.emacs.d remote show origin | tail -n 1
+  git -C ~/.emacs.d remote show origin | grep 'pushes to master'
 fi
 
 #
