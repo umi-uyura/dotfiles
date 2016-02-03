@@ -13,6 +13,8 @@
 # - Remove methods to avoid warnings.
 #
 # Reference:
+# - Gitのコミットメッセージの書き方
+#   (http://qiita.com/itosho/items/9565c6ad2ffc24c09364)
 # - 提言: コミットメッセージの一行目には要求仕様を書け
 #   (http://qiita.com/magicant/items/882b5142c4d5064933bc)
 # - GitHubで使われている実用英語コメント集
