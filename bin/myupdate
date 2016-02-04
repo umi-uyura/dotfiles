@@ -13,9 +13,10 @@ TAG_HOMEBREWS="homebrews"
 TAG_ANYENV="anyenv"
 TAG_NODE="node"
 TAG_RUBYGEMS="rubygems"
+TAG_ATOM="atom"
 TAG_HEROKU="heroku"
 TAG_VAGRANT="vagrant"
-TAGS=($TAG_SOFTWAREUPDATE $TAG_DOTFILES $TAG_DOTEMACS $TAG_BIST $TAG_EMACSCASK $TAG_HOMEBREWS $TAG_ANYENV $TAG_NODE $TAG_RUBYGEMS $TAG_HEROKU $TAG_VAGRANT)
+TAGS=($TAG_SOFTWAREUPDATE $TAG_DOTFILES $TAG_DOTEMACS $TAG_BIST $TAG_EMACSCASK $TAG_HOMEBREWS $TAG_ANYENV $TAG_NODE $TAG_RUBYGEMS $TAG_ATOM $TAG_HEROKU $TAG_VAGRANT)
 
 #
 # My update function
@@ -249,6 +250,26 @@ if [ 0 -ne $SKIP_RUBYGEMS ]; then
     echo "### Checking for Rubygem updates ..."
     echo
     gem outdated
+  fi
+fi
+
+#
+# Atom packages
+#
+skiptag "${TAG_ATOM}"
+SKIP_ATOM=$?
+
+if [ 0 -ne $SKIP_ATOM ]; then
+  if [ $UPGRADE ]; then
+    echo
+    echo "### Updating Atom packages ..."
+    echo
+    apm upgrade -c false
+  else
+    echo
+    echo "### Checking for Atom package updates ..."
+    echo
+    apm outdated
   fi
 fi
 
