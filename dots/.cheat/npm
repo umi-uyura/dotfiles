@@ -1,0 +1,13 @@
+# List installed moudle
+npm ls [-g] --depth=0
+
+### npm link
+
+# Link module (at module directory)
+npm link
+
+# Use linked module (at project directory)
+npm link <module name>
+
+# Unlink moudle
+npm unlink <module name>

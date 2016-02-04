@@ -20,6 +20,7 @@ install phantomjs
 install htop
 
 install bash-completion
+install cheat
 install gnu-sed
 install git
 install mercurial
