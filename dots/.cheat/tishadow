@@ -1,0 +1,14 @@
+### TiShadow cheat sheet
+
+# Generate TiShadow app
+tishadow app -d ~/tishadowapp
+
+# Update TiShadow app
+tishadow app -d ~/tishadowapp --upgrade
+
+# Start TiShadow server
+tishadow server
+
+# TiShadow express
+titanium build -p ios -T device --shadow
+titanium build -p android -T device --shadow
