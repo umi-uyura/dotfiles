@@ -14,3 +14,4 @@ bist install b144de7219fdf712cd8c       # appc-ndenv
 # Utilities
 bist install ddf59b07ba3d44fca1a4       # getlibolang
 bist install b0ea9712c31c89e5515f       # wifireboot
+bist install 91bb374c86050562f20b       # how
