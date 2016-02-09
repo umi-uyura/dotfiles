@@ -226,7 +226,7 @@ if [ 0 -ne $SKIP_NODE ]; then
     echo
     echo "### Checking for Node package updates ..."
     echo
-    npm-check-updates -g
+    ncu -g
   fi
 fi
 
