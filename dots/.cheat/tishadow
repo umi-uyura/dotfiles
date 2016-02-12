@@ -1,14 +1,30 @@
 ### TiShadow cheat sheet
 
+# `ts` is abbreviation of `tishadow`
+
 # Generate TiShadow app
-tishadow app -d ~/tishadowapp
+ts app -d ~/tishadowapp
 
 # Update TiShadow app
-tishadow app -d ~/tishadowapp --upgrade
+ts app -d ~/tishadowapp --upgrade
 
 # Start TiShadow server
-tishadow server
+ts server
+
+# Start TiShadow
+ts run                  # All platform
+ts run -P ios           # for iOS platform
+ts run -P android       # for Android platform
 
 # TiShadow express
 titanium build -p ios -T device --shadow
 titanium build -p android -T device --shadow
+
+# Close the runnning app on the device
+ts close
+
+# Clear the application cache on all connected devices
+ts clear
+
+# Capture screenshots of all connected devices
+ts screenshot
