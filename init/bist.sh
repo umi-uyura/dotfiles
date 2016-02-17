@@ -3,6 +3,7 @@
 # Environment
 bist install bbe1da6257a79331a18c       # brewcaskupdate
 bist install 475ee08eba84fe02359e       # brewcaskremoveall
+bist install e2ca550826d4a11f3ff2       # brewcaskcheckupdated
 bist install 9e3b45c8ffdb66505326       # node-uninstall
 
 # Development
