@@ -92,6 +92,7 @@
     "ENV_PRODUCTION": false,
     "DIST_ADHOC": false,
     "DIST_STORE": false,
-    "task": false
+    "task": false,
+    "migration": false
   }
 }
