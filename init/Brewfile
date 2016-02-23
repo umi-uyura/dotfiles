@@ -44,6 +44,7 @@ install tig
 install gibo
 install w3m
 install httpie
+install mitmproxy
 install casperjs --devel
 install nkf
 install ffmpeg
