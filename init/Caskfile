@@ -51,6 +51,7 @@ cask install android-studio 2> /dev/null
 cask install androidtool 2> /dev/null
 cask install heroku-toolbelt 2> /dev/null
 cask install ios-console 2> /dev/null
+cask install knuff 2> /dev/null
 
 cask install virtualbox 2> /dev/null
 cask install virtualbox-extension-pack 2> /dev/null
