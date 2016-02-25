@@ -24,6 +24,7 @@ install cheat
 install thefuck
 install gnu-sed
 install git
+install hub
 install mercurial
 install sl
 install lv
