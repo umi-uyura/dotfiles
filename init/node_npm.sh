@@ -56,6 +56,9 @@ npm install -g eslint-plugin-react
 npm install -g jsonlint
 npm install -g plato
 
+# Development overall
+npm install -g ghcal
+
 # Debug/Test
 npm install -g node-inspector
 npm install -g blink-diff
