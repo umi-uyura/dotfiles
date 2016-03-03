@@ -36,6 +36,7 @@ cask install macdown 2> /dev/null
 cask install astah-community 2> /dev/null
 # cask install calibre 2> /dev/null
 cask install hex-fiend 2> /dev/null
+cask install pingendo 2> /dev/null
 
 cask install dropbox 2> /dev/null
 cask install omnidisksweeper 2> /dev/null
