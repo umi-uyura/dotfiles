@@ -22,6 +22,7 @@ App Store
 * [Explainer Screenshots](http://kitestack.com/explainer/)
 * [Dash](http://kapeli.com/dash)
 * [SmartFinder](https://itunes.apple.com/jp/app/smartfinder/id1012930195?mt=12) - Androidのストレージをブラウズする
+* [USBclean](https://sweetpproductions.com/) - リムーバブルメディア内の不要ファイルを除去
 * LINE
 * TweetDeck
 * ToyViewer
