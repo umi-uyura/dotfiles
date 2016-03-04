@@ -25,6 +25,7 @@ install thefuck
 install gnu-sed
 install git
 install hub
+install diff-so-fancy
 install mercurial
 install sl
 install lv

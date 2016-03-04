@@ -37,6 +37,10 @@
 [commit]
 	template = ~/.gitmessage.txt
 
+[pager]
+	diff = diff-so-fancy | less --tabs=4 -RFX
+	show = diff-so-fancy | less --tabs=4 -RFX
+
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean %f
