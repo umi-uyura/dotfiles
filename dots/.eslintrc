@@ -42,7 +42,7 @@
     // Rules: Stylistic Issues
     "jsx-quotes": 1,                            // JSXプロパティの引用符はダブルクォーテーションを使う
     "linebreak-style": 2,                       // 改行コードは統一する
-    "quotes": [2, "single"],                    // 引用符はシングルクォーテーションを使う (fixable)
+    "quotes": [0, "single"],                    // 引用符はシングルクォーテーションを使う (fixable)
     "semi": [2, "always"],                      // セミコロンは必ずつける (fixable)
 
     // eslint-config-react
