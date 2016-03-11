@@ -67,6 +67,9 @@ install brew-cask-completion
 tap karan/karan
 install gitignore
 
+brew tap caius/jo
+install jo
+
 # Generate synbolic link for GUI applications
 linkapps
 
