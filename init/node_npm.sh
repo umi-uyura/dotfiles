@@ -20,6 +20,7 @@ npm install -g alloy-smelter
 npm install -g ti-i18n
 npm install -g ticons
 npm install -g iconfont
+npm install -g faster-titanium
 npm install -g tishadow --unsafe-perm
 npm install -g ti-inspector
 npm install -g dev.tiapp --unsafe-perm
