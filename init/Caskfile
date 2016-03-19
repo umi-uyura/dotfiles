@@ -121,7 +121,7 @@ cask install monolingual 2> /dev/null
 tap caskroom/fonts
 
 cask install font-roboto 2> /dev/null
-cask install font-noto-sans-japanese 2> /dev/null
+cask install font-noto-sans-cjk-jp 2> /dev/null
 cask install font-noto-sans 2> /dev/null
 cask install font-noto-serif 2> /dev/null
 cask install font-source-code-pro 2> /dev/null
