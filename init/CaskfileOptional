@@ -7,8 +7,6 @@
 #
 
 cask install google-drive 2> /dev/null
-cask install copy 2> /dev/null
-cask install bitcasa 2> /dev/null
 
 cask install chrome-remote-desktop-host 2> /dev/null
 
@@ -16,11 +14,3 @@ cask install mamp 2> /dev/null
 
 cask install amazon-music 2> /dev/null
 cask install kindle 2> /dev/null
-cask install kobo-jp 2> /dev/null
-
-
-#
-# caskroom/homebrew-unofficial
-#
-
-cask install truecrypt 2> /dev/null
