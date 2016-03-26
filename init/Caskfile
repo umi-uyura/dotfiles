@@ -19,9 +19,10 @@ cask install java 2> /dev/null
 cask install xquartz 2> /dev/null
 cask install adobe-air 2> /dev/null
 
-cask install alfred 2> /dev/null
 cask install iterm2 2> /dev/null
 cask install keepassx 2> /dev/null
+cask install alfred 2> /dev/null
+cask install bitbar 2> /dev/null
 
 cask install google-chrome 2> /dev/null
 cask install firefox 2> /dev/null
