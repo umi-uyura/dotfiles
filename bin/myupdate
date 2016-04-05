@@ -213,7 +213,7 @@ if [ 0 -ne $SKIP_NODE ]; then
     echo
     echo "### Updating NPM ..."
     echo
-    npm update -g npm
+    npm install -g npm
     ndenv rehash
 
     echo
