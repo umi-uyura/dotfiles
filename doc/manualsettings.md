@@ -34,6 +34,9 @@ Manual Settings
 * 修飾キー
     * Optionキー→Command
 	* Commandキー→Option
+* ショートカット
+    * Spotlight
+        * Finderの検索ウィンドウを表示: オフ（AccessMenuBarAppsで利用）
 * 入力ソース
 	* 「Google日本語入力(Google)」の「英数」「ひらがな」を追加
 	* 「ことえり」を削除
@@ -175,7 +178,7 @@ Caffeine
 AccessMenuBarApps
 -----------------
 
-* HotKey: なし
+* HotKey: Control + Option + スペース
 * Mouse gesture: オフ
 * FX
 	* Sound Fx: オフ
