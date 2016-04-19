@@ -4,7 +4,7 @@
 
 # Install Homebrew Cask
 
-install caskroom/cask/brew-cask
+tap caskroom/cask
 
 
 #
