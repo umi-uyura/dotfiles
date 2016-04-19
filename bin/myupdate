@@ -253,25 +253,25 @@ if [ 0 -ne $SKIP_RUBYGEMS ]; then
   fi
 fi
 
-#
-# Atom packages
-#
-skiptag "${TAG_ATOM}"
-SKIP_ATOM=$?
+# #
+# # Atom packages
+# #
+# skiptag "${TAG_ATOM}"
+# SKIP_ATOM=$?
 
-if [ 0 -ne $SKIP_ATOM ]; then
-  if [ $UPGRADE ]; then
-    echo
-    echo "### Updating Atom packages ..."
-    echo
-    apm upgrade -c false
-  else
-    echo
-    echo "### Checking for Atom package updates ..."
-    echo
-    apm outdated
-  fi
-fi
+# if [ 0 -ne $SKIP_ATOM ]; then
+#   if [ $UPGRADE ]; then
+#     echo
+#     echo "### Updating Atom packages ..."
+#     echo
+#     apm upgrade -c false
+#   else
+#     echo
+#     echo "### Checking for Atom package updates ..."
+#     echo
+#     apm outdated
+#   fi
+# fi
 
 #
 # Heroku plugins
