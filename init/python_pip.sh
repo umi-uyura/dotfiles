@@ -1,4 +1,5 @@
 #!/bin/sh
 
-pip install wakatime
+pip install ipython
 pip install pylint
+pip install wakatime
