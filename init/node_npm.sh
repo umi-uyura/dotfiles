@@ -16,7 +16,7 @@ npm install -g acs
 npm install -g appc-npm
 npm install -g gittio
 npm install -g tn --unsafe-perm
-npm install -g alloy-smelter
+# npm install -g alloy-smelter
 npm install -g ti-i18n
 npm install -g ticons
 npm install -g iconfont
