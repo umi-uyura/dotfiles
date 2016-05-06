@@ -26,6 +26,7 @@ install gnu-sed
 install git
 install hub
 install diff-so-fancy
+install subversion
 install mercurial
 install sl
 install lv
@@ -38,7 +39,7 @@ install sqlite
 link sqlite --force
 install mongodb
 install mycli
-install subversion
+install heroku-toolbelt
 install multimarkdown
 install pandoc
 install diff-pdf
