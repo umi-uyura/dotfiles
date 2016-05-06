@@ -39,7 +39,7 @@ install sqlite
 link sqlite --force
 install mongodb
 install mycli
-install heroku-toolbelt
+install heroku
 install multimarkdown
 install pandoc
 install diff-pdf
