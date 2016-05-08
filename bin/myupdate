@@ -13,10 +13,11 @@ TAG_HOMEBREWS="homebrews"
 TAG_ANYENV="anyenv"
 TAG_NODE="node"
 TAG_RUBYGEMS="rubygems"
+TAG_PYTHON="pip"
 TAG_ATOM="atom"
 TAG_HEROKU="heroku"
 TAG_VAGRANT="vagrant"
-TAGS=($TAG_SOFTWAREUPDATE $TAG_DOTFILES $TAG_DOTEMACS $TAG_BIST $TAG_EMACSCASK $TAG_HOMEBREWS $TAG_ANYENV $TAG_NODE $TAG_RUBYGEMS $TAG_ATOM $TAG_HEROKU $TAG_VAGRANT)
+TAGS=($TAG_SOFTWAREUPDATE $TAG_DOTFILES $TAG_DOTEMACS $TAG_BIST $TAG_EMACSCASK $TAG_HOMEBREWS $TAG_ANYENV $TAG_NODE $TAG_RUBYGEMS $TAG_PYTHON $TAG_ATOM $TAG_HEROKU $TAG_VAGRANT)
 
 #
 # My update function
@@ -250,6 +251,26 @@ if [ 0 -ne $SKIP_RUBYGEMS ]; then
     echo "### Checking for Rubygem updates ..."
     echo
     gem outdated
+  fi
+fi
+
+#
+# Python pip
+#
+skiptag "${TAG_PYTHON}"
+SKIP_PYTHON=$?
+
+if [ 0 -ne $SKIP_PYTHON ]; then
+  if [ $UPGRADE ]; then
+    echo
+    echo "### Updating Python pakcages ..."
+    echo
+    pip list --outdated | awk '{print $1}' | xargs pip install -U
+  else
+    echo
+    echo "### Checking for Python package updates ..."
+    echo
+    pip list --outdated
   fi
 fi
 
