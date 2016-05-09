@@ -42,6 +42,7 @@ App Store
 * [Integrity](http://peacockmedia.software/mac/integrity/) - リンク切れチェッカー
 * SourceTree
 * [Speedy](http://seense.com/speedy/)
+* [Aware](http://awaremac.com/) - メニューバーに連続したアクティブな時間を表示
 * 1Checker
 
 
