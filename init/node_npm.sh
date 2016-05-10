@@ -64,6 +64,7 @@ npm install -g ghcal
 # Debug/Test
 npm install -g node-inspector
 npm install -g devtool
+npm install -g esbox
 npm install -g blink-diff
 
 # Documents/Writing
