@@ -58,7 +58,6 @@ npm install -g jsonlint
 npm install -g plato
 
 # Development overall
-npm install -g umi-uyura/node-bitbar-asana
 npm install -g ghcal
 
 # Debug/Test
