@@ -16,7 +16,6 @@ install colordiff
 install tree
 install wget
 install vim
-install phantomjs
 install htop
 
 install bash-completion
@@ -50,7 +49,6 @@ install gibo
 install w3m
 install httpie
 install mitmproxy
-install casperjs --devel
 install nkf
 install ffmpeg
 install gifsicle
