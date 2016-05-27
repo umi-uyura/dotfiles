@@ -71,6 +71,7 @@ cask install sqlitebrowser 2> /dev/null
 
 cask install skype 2> /dev/null
 cask install caprine 2> /dev/null
+cask install chatwork 2> /dev/null
 cask install franz 2> /dev/null
 
 cask install filezilla 2> /dev/null
