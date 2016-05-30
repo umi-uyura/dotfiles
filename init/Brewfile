@@ -26,7 +26,6 @@ install git
 install hub
 install diff-so-fancy
 install subversion
-install mercurial
 install sl
 install lv
 install the_silver_searcher
