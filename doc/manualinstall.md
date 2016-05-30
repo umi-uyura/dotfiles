@@ -74,3 +74,10 @@ Other site
 * [Form](http://www.relativewave.com/form/)
 * [Alternote](http://alternoteapp.com/)
 * [NeighborNote](http://puma.cis.ibaraki.ac.jp/products/neighbornote/) - Yosemiteで起動しない？
+
+
+Xcode plugins
+-------------
+
+* [Alcatraz](http://alcatraz.io/) - The package manager for Xcode plugin
+* [dealforest/Anglerfish](https://github.com/dealforest/Anglerfish) - シミュレータを最近使った順に並べ替える
