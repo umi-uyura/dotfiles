@@ -19,7 +19,6 @@ install vim
 install htop
 
 install bash-completion
-install cheat
 install thefuck
 install gnu-sed
 install git
