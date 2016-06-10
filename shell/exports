@@ -69,12 +69,12 @@ export ALTERNATE_EDITOR='/Applications/Emacs.app/Contents/MacOS/Emacs'
 #
 
 # export ANDROID_JAVA_HOME=$JAVA_HOME
-export ANDROID_JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
 export ANDROID_HOME=$HOME/Library/android-sdk-macosx
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+# export ANDROID_JAVA_HOME=$(/usr/libexec/java_home -v 1.7)     # -> .bash_local
 
-# Android Studio
-export STUDIO_JDK=$(/usr/libexec/java_home -v 1.7 | sed -e "s/\/Contents\/Home//")
+# Android Studio -> .bash_local
+# export STUDIO_JDK=$(/usr/libexec/java_home -v 1.7 | sed -e "s/\/Contents\/Home//")
 
 
 #

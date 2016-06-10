@@ -30,6 +30,10 @@ export ANDROID_NDK_HOME=$HOME/Library/android-ndk-r10b
 export PATH=$ANDROID_NDK_HOME:$PATH
 
 
+# Android Studio
+# export STUDIO_JDK=$(/usr/libexec/java_home -v 1.7 | sed -e "s/\/Contents\/Home//")
+
+
 #
 # Postgress.app - http://postgresapp.com/
 #
