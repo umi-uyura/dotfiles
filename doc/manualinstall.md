@@ -27,6 +27,7 @@ App Store
 * TweetDeck
 * ToyViewer
 * [iMage Tools](http://www.icyblaze.com/imagetools/)
+* [XnConver](http://www.xnview.com/en/xnconvert/) - 一括画像変換
 * Autodesk Pixir
 * iConify
 * [Icon Set Creator](http://nicolasmiari.com/utilities/icon-set-creator/)
