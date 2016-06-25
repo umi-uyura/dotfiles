@@ -28,6 +28,7 @@ App Store
 * ToyViewer
 * [iMage Tools](http://www.icyblaze.com/imagetools/)
 * [XnConver](http://www.xnview.com/en/xnconvert/) - 一括画像変換
+* [Filtron](https://filtron.co/) - 画像フィルタ
 * Autodesk Pixir
 * iConify
 * [Icon Set Creator](http://nicolasmiari.com/utilities/icon-set-creator/)
