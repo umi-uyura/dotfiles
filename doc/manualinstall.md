@@ -68,6 +68,7 @@ Other site
 * [Audacity](http://audacityteam.org/)
 * [Font Picker](http://www.fontpicker.net/air/) - require Adobe AIR
 * [Simple Comic](http://www.stiandrobak.com/CustomBuilds/Simple_Comic.php) - フォーク版
+* [DeskDock Server](http://fdmobileinventions.blogspot.jp/p/deskdock-server.html) - Android端末とマウス＆キーボードを共有
 
 
 ### Candidate
