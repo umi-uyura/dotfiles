@@ -68,6 +68,7 @@ cask install pgadmin3 2> /dev/null
 cask install psequel 2> /dev/null
 cask install sequel-pro 2> /dev/null
 cask install robomongo 2> /dev/null
+cask install mongotron 2> /dev/null
 cask install sqlitebrowser 2> /dev/null
 
 cask install skype 2> /dev/null
