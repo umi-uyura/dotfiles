@@ -265,12 +265,12 @@ if [ 0 -ne $SKIP_PYTHON ]; then
     echo
     echo "### Updating Python pakcages ..."
     echo
-    pip list --outdated | awk '{print $1}' | xargs pip install -U
+    pip list --outdated --format=legacy | awk '{print $1}' | xargs pip install -U
   else
     echo
     echo "### Checking for Python package updates ..."
     echo
-    pip list --outdated
+    pip list --outdated --format=columns
   fi
 fi
 
