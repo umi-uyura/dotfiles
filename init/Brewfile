@@ -29,6 +29,7 @@ install sl
 install lv
 install the_silver_searcher
 install the_platinum_searcher
+install ripgrep
 install peco
 install jo
 install fpp
