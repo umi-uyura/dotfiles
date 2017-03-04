@@ -17,6 +17,7 @@ App Store
 * Pocket
 * Evernote
 * Skitch
+* [Monosnap](https://www.monosnap.com/welcome)
 * [Kobito](http://kobito.qiita.com/)
 * [CotEditor](http://coteditor.com/)
 * [Explainer Screenshots](http://kitestack.com/explainer/)
