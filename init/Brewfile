@@ -34,6 +34,7 @@ install peco
 install jo
 install fpp
 install go
+install shellcheck
 install sqlite
 link sqlite --force
 install mongodb
