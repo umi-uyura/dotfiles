@@ -60,6 +60,7 @@ export ALTERNATE_EDITOR='/Applications/Emacs.app/Contents/MacOS/Emacs'
 #
 
 # export JAVA_HOME=$(/usr/libexec/java_home -v 1.6)  # Refer jenv(anyenv)
+export JAVA_HOME=$(/usr/libexec/java_home)
 # export PATH=$JAVA_HOME/bin:$PATH
 # export _JAVA_OPTIONS='-Dfile.encoding=UTF-8'  # Not use from Java 7
 
