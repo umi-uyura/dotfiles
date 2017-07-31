@@ -38,7 +38,7 @@ export PATH=$ANDROID_NDK_HOME:$PATH
 # Postgress.app - http://postgresapp.com/
 #
 
-export PATH=~/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH
+export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
 
 
 ##
