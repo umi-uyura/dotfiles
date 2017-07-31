@@ -29,7 +29,7 @@ export PATH=$HOME/dotfiles/bin:$PATH
 export PATH=$HOME/.bist/bin:$PATH
 
 # anyenv
-if [ -d $HOME/.anyenv ] ; then
+if [ -d "$HOME/.anyenv" ] ; then
   export PATH="$HOME/.anyenv/bin:$PATH"
   eval "$(anyenv init -)"
 fi
