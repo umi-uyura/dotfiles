@@ -85,3 +85,4 @@ Xcode plugins
 
 * [Alcatraz](http://alcatraz.io/) - The package manager for Xcode plugin
 * [dealforest/Anglerfish](https://github.com/dealforest/Anglerfish) - シミュレータを最近使った順に並べ替える
+* [SQLPlugin](http://viktyz.github.io/SQLPlugin/) - シミュレータ内のSQLiteデータベースを操作する
