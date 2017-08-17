@@ -11,7 +11,7 @@ upgrade
 # Install tools
 install ghostscript --with-x11
 install imagemagick --with-ghostscript --with-x11
-install https://gist.githubusercontent.com/ssugiyama/5ff88299efadd61415c5/raw/4f43fbbc4da09a4c6803afa8ec396c6fb7485f8f/emacs-jp.rb --with-cocoa --with-imagemagick
+install https://gist.githubusercontent.com/ssugiyama/5ff88299efadd61415c5/raw/b7b496850386ef5638a7f4790c6edb8c68524500/emacs-jp.rb --with-cocoa --with-gnutls --with-modules
 install cask
 install homebrew/x11/meld
 
