@@ -34,6 +34,10 @@ if [ -d "$HOME/.anyenv" ] ; then
   eval "$(anyenv init -)"
 fi
 
+# Python
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+
+
 #
 # Homebrew
 #
