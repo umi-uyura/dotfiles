@@ -45,6 +45,7 @@ npm install -g jade
 npm install -g stylus
 npm install -g stylestats
 npm install -g supervisor
+npm install -g easymock
 npm install -g psi
 npm install -g disc
 npm install -g tern
