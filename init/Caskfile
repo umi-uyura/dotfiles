@@ -50,7 +50,7 @@ cask install launchrocket 2> /dev/null
 cask install android-studio 2> /dev/null
 cask install androidtool 2> /dev/null
 cask install ios-console 2> /dev/null
-cask install knuff 2> /dev/null
+# cask install knuff 2> /dev/null
 cask install beacon-scanner 2> /dev/null
 cask install intellij-idea-ce 2> /dev/null
 
