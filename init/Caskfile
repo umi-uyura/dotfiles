@@ -60,7 +60,7 @@ cask install vagrant-manager 2> /dev/null
 cask install genymotion 2> /dev/null
 
 cask install postgres 2> /dev/null
-cask install pgadmin3 2> /dev/null
+cask install pgadmin4 2> /dev/null
 cask install psequel 2> /dev/null
 cask install sequel-pro 2> /dev/null
 cask install robomongo 2> /dev/null
