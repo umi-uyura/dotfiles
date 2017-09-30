@@ -31,7 +31,7 @@ npm install -g timodules
 npm install -g ti-deploygate-hook
 
 # Phonegap/Cordova
-npm install -g phonegap
+# npm install -g phonegap
 npm install -g ios-sim
 npm install -g ios-deploy
 
