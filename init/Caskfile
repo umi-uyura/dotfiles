@@ -62,6 +62,7 @@ cask install genymotion 2> /dev/null
 cask install postgres 2> /dev/null
 cask install pgadmin4 2> /dev/null
 cask install psequel 2> /dev/null
+cask install dbeaver-community 2> /dev/null
 cask install sequel-pro 2> /dev/null
 cask install robomongo 2> /dev/null
 cask install mongotron 2> /dev/null
