@@ -33,6 +33,7 @@ cask install xmind 2> /dev/null
 cask install ganttproject 2> /dev/null
 cask install projectlibre 2> /dev/null
 cask install typora 2> /dev/null
+cask install drawio 2> /dev/null
 cask install astah-community 2> /dev/null
 cask install hex-fiend 2> /dev/null
 
