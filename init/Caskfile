@@ -77,6 +77,7 @@ cask install filezilla 2> /dev/null
 cask install cyberduck 2> /dev/null
 cask install postman 2> /dev/null
 cask install insomnia 2> /dev/null
+cask install integrity 2> /dev/null # Available on Mac App Store, but it's old version
 cask install private-eye 2> /dev/null
 
 cask install imageoptim 2> /dev/null
