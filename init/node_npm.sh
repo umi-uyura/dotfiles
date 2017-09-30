@@ -40,7 +40,6 @@ npm install -g app.json
 
 # Web develop
 npm install -g node-static
-npm install -g roots
 npm install -g express-generator
 npm install -g jade
 npm install -g stylus
