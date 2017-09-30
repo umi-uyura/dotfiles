@@ -21,6 +21,13 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 
 #
+# Android SDK
+#
+
+export PATH=$ANDROID_HOME/build-tools/25.0.2:$PATH
+
+
+#
 # Android NDK
 #
 
