@@ -220,7 +220,6 @@ if [ 0 -ne $SKIP_NODE ]; then
     echo "### Updating Node packages ..."
     echo
     npm update -g
-    npm cache clean
     ndenv rehash
   else
     echo
