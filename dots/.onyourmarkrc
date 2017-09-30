@@ -1,4 +1,4 @@
-export REGULAR_APPS=("Google Chrome.app" "/usr/local/Cellar/emacs-jp/24.5/Emacs.app" "Aware.app")
-export SUB_APPS=("TweetDeck.app" "Pocket.app")
+export REGULAR_APPS=("Google Chrome.app" "Emacs.app" "Aware.app")
+export SUB_APPS=("Tweeten.app" "Pocket.app")
 export TERMINAL_APP="iTerm"
 export WAIT_APPS_BOOT=3
