@@ -32,12 +32,9 @@ cask install libreoffice 2> /dev/null
 cask install xmind 2> /dev/null
 cask install ganttproject 2> /dev/null
 cask install projectlibre 2> /dev/null
-cask install macdown 2> /dev/null
 cask install typora 2> /dev/null
 cask install astah-community 2> /dev/null
-# cask install calibre 2> /dev/null
 cask install hex-fiend 2> /dev/null
-cask install pingendo 2> /dev/null
 
 cask install dropbox 2> /dev/null
 cask install omnidisksweeper 2> /dev/null
@@ -47,11 +44,9 @@ cask install github-desktop 2> /dev/null
 cask install gitup 2> /dev/null
 cask install svnx 2> /dev/null
 
-# cask install cakebrew 2> /dev/null
 cask install launchrocket 2> /dev/null
 cask install android-studio 2> /dev/null
 cask install androidtool 2> /dev/null
-cask install alcatraz 2> /dev/null
 cask install ios-console 2> /dev/null
 cask install knuff 2> /dev/null
 cask install beacon-scanner 2> /dev/null
