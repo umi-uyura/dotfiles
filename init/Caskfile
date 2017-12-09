@@ -16,7 +16,7 @@ tap caskroom/versions
 # cask install node 2> /dev/null
 cask install java8 2> /dev/null
 cask install xquartz 2> /dev/null
-cask install adobe-air 2> /dev/null
+# cask install adobe-air 2> /dev/null
 
 cask install iterm2 2> /dev/null
 cask install keepassx 2> /dev/null
@@ -44,7 +44,7 @@ cask install github-desktop 2> /dev/null
 cask install gitup 2> /dev/null
 cask install fork 2> /dev/null
 
-cask install launchrocket 2> /dev/null
+# cask install launchrocket 2> /dev/null
 cask install android-studio 2> /dev/null
 cask install androidtool 2> /dev/null
 cask install ios-console 2> /dev/null
@@ -68,7 +68,7 @@ cask install sqlitebrowser 2> /dev/null
 
 cask install skype 2> /dev/null
 cask install caprine 2> /dev/null
-cask install chatwork 2> /dev/null
+# cask install chatwork 2> /dev/null
 # cask install franz 2> /dev/null
 cask install ramme 2> /dev/null
 cask install tweeten 2> /dev/null
@@ -77,8 +77,8 @@ cask install filezilla 2> /dev/null
 cask install cyberduck 2> /dev/null
 cask install postman 2> /dev/null
 cask install insomnia 2> /dev/null
-cask install integrity 2> /dev/null # Available on Mac App Store, but it's old version
-cask install private-eye 2> /dev/null
+# cask install integrity 2> /dev/null # Available on Mac App Store, but it's old version
+# cask install private-eye 2> /dev/null
 cask install ngrok 2> /dev/null
 
 cask install imageoptim 2> /dev/null
@@ -94,19 +94,18 @@ cask install handbrake 2> /dev/null
 cask install mplayerx 2> /dev/null  # Available on Mac App Store, but it's old version
 cask install mplayer-osx-extended 2> /dev/null
 cask install iina 2> /dev/null
-cask install gifrocket 2> /dev/null
-cask install licecap 2> /dev/null
-cask install unicorns 2> /dev/null
+# cask install gifrocket 2> /dev/null
+# cask install licecap 2> /dev/null
+# cask install unicorns 2> /dev/null
 
 cask install appcleaner 2> /dev/null
 cask install maczip4win 2> /dev/null
 
 cask install keepingyouawake 2> /dev/null
 cask install avira-antivirus 2> /dev/null
-cask install accessmenubarapps 2> /dev/null
 cask install flux 2> /dev/null
 cask install numi 2> /dev/null
-cask install loading 2> /dev/null
+# cask install loading 2> /dev/null
 
 cask install qlcolorcode 2> /dev/null
 cask install qlimagesize 2> /dev/null
@@ -118,7 +117,7 @@ cask install quicklook-json 2> /dev/null
 cask install betterzipql 2> /dev/null
 cask install provisionql 2> /dev/null
 
-cask install easysimbl 2> /dev/null
+# cask install easysimbl 2> /dev/null
 
 cask install monolingual 2> /dev/null
 
