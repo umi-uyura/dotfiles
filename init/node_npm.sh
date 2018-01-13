@@ -22,7 +22,6 @@ npm install -g ticons
 npm install -g iconfont
 npm install -g faster-titanium
 npm install -g tishadow --unsafe-perm
-npm install -g ti-inspector
 npm install -g dev.tiapp --unsafe-perm
 npm install -g tich
 npm install -g tisdk
@@ -60,9 +59,6 @@ npm install -g plato
 npm install -g ghcal
 
 # Debug/Test
-npm install -g node-inspector
-npm install -g devtool
-npm install -g esbox
 npm install -g blink-diff
 
 # Documents/Writing
