@@ -53,7 +53,7 @@ npm install -g tern
 # Linter
 npm install -g eslint
 npm install -g eslint-plugin-react
-npm install -g jsonlint
+npm install -g jsonlint-mod
 npm install -g plato
 
 # Development overall
