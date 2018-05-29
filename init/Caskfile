@@ -81,6 +81,7 @@ cask install insomnia 2> /dev/null
 # cask install integrity 2> /dev/null # Available on Mac App Store, but it's old version
 # cask install private-eye 2> /dev/null
 cask install ngrok 2> /dev/null
+cask install switchhosts 2> /dev/null
 
 cask install imageoptim 2> /dev/null
 cask install imagealpha 2> /dev/null
