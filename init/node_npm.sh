@@ -48,6 +48,7 @@ npm install -g easymock
 npm install -g psi
 npm install -g disc
 npm install -g tern
+npm install -g js-beautify
 
 # Linter
 npm install -g eslint
