@@ -55,6 +55,7 @@ Other site
 * [Locat](https://github.com/hetima/Locat)
 * [Octosaver](https://github.com/kimar/Octosaver) - Octcatスクリーンセーバー
 * [Android SDK](http://developer.android.com/sdk/index.html)
+* [Android log viewer](https://bitbucket.org/mlopatkin/android-log-viewer)
 * [Eclipse](https://eclipse.org/)
 	* [ER Master](http://ermaster.sourceforge.net/index_ja.html)
 * [SQL Tabs](http://www.sqltabs.com/) - PostgreSQL管理ツール
