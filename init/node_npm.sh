@@ -32,7 +32,7 @@ npm install -g ti-deploygate-hook
 # Phonegap/Cordova
 # npm install -g phonegap
 npm install -g ios-sim
-npm install -g ios-deploy
+npm install -g ios-deploy --unsafe-perm
 
 # Heroku
 npm install -g app.json
