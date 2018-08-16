@@ -14,8 +14,8 @@ App Store
 * Caffeine
 * [Pushbullet](https://www.pushbullet.com/)
 * [Go2Shell](http://zipzapmac.com/Go2Shell)
-* Pocket
-* Evernote
+* ~~Pocket~~ ※データ量が大きくなるため削除
+* ~~Evernote~~ ※データ量が大きくなるため削除
 * Skitch
 * [Monosnap](https://www.monosnap.com/welcome)
 * [Kobito](http://kobito.qiita.com/)
