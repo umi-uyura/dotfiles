@@ -39,6 +39,8 @@ npm install -g app.json
 
 # Web develop
 npm install -g node-static
+npm install -g http-server
+npm install -g local-web-server
 npm install -g express-generator
 npm install -g jade
 npm install -g stylus
