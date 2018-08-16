@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 ## -*- mode: sh-mode; coding: utf-8 -*-
 
+# The Fuck
+eval "$(thefuck --alias)"
+
 #
 # gitignore.io https://www.gitignore.io/
 #
