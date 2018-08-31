@@ -14,9 +14,8 @@ TAG_ANYENV="anyenv"
 TAG_NODE="node"
 TAG_RUBYGEMS="rubygems"
 TAG_PYTHON="pip"
-TAG_ATOM="atom"
 TAG_VAGRANT="vagrant"
-TAGS=($TAG_SOFTWAREUPDATE $TAG_DOTFILES $TAG_DOTEMACS $TAG_BIST $TAG_EMACSCASK $TAG_HOMEBREWS $TAG_ANYENV $TAG_NODE $TAG_RUBYGEMS $TAG_PYTHON $TAG_ATOM $TAG_VAGRANT)
+TAGS=($TAG_SOFTWAREUPDATE $TAG_DOTFILES $TAG_DOTEMACS $TAG_BIST $TAG_EMACSCASK $TAG_HOMEBREWS $TAG_ANYENV $TAG_NODE $TAG_RUBYGEMS $TAG_PYTHON $TAG_VAGRANT)
 
 #
 # My update function
@@ -271,26 +270,6 @@ if [ 0 -ne $SKIP_PYTHON ]; then
     pip list --outdated --format=columns
   fi
 fi
-
-# #
-# # Atom packages
-# #
-# skiptag "${TAG_ATOM}"
-# SKIP_ATOM=$?
-
-# if [ 0 -ne $SKIP_ATOM ]; then
-#   if [ $UPGRADE ]; then
-#     echo
-#     echo "### Updating Atom packages ..."
-#     echo
-#     apm upgrade -c false
-#   else
-#     echo
-#     echo "### Checking for Atom package updates ..."
-#     echo
-#     apm outdated
-#   fi
-# fi
 
 #
 # Vagrant plugins
