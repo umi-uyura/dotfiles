@@ -108,7 +108,8 @@ fi
 skiptag "${TAG_DOTFILES}"
 SKIP_DOTFILES=$?
 
-if [ 0 -ne $SKIP_DOTFILES ]; then
+# if [ 0 -ne $SKIP_DOTFILES ]; then
+if false; then
   echo
   echo "### Checking for dotfiles updates ..."
   echo
@@ -121,7 +122,8 @@ fi
 skiptag "${TAG_DOTEMACS}"
 SKIP_DOTEMACS=$?
 
-if [ 0 -ne $SKIP_DOTEMACS ]; then
+# if [ 0 -ne $SKIP_DOTEMACS ]; then
+if false; then
   echo
   echo "### Checking for .emacs.d updates ..."
   echo
@@ -174,15 +176,16 @@ if [ 0 -ne $SKIP_HOMEBREWS ]; then
     echo "### Updating Homebrew and Homebrew Cask ..."
     echo
     brew upgrade
-    brew cleanup
-    brew prune
+    brew cask upgrade
 
-    brewcaskupdate -u
+    # brew cleanup
+    brew prune
   else
     echo
     echo "### Checking for Homebrew and Homebrew Cask updates ..."
     echo
-    brewcaskupdate
+    brew outdated
+    brew cask outdated
   fi
 fi
 
@@ -262,12 +265,13 @@ if [ 0 -ne $SKIP_PYTHON ]; then
     echo
     echo "### Updating Python pakcages ..."
     echo
-    pip list --outdated --format=legacy | awk '{print $1}' | xargs pip install -U
+    # pip list --outdated --format=freeze | awk -F"==" '{print $1}' | xargs pip install -U
+    pip list --outdated --format=freeze | awk -F"==" '{print $1}' | xargs echo
   else
     echo
     echo "### Checking for Python package updates ..."
     echo
-    pip list --outdated --format=columns
+    pip list --outdated
   fi
 fi
 
