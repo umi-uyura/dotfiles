@@ -14,3 +14,7 @@ cask install mamp 2> /dev/null
 
 cask install amazon-music 2> /dev/null
 cask install kindle 2> /dev/null
+
+
+cask install osxfuse            # need reboot
+cask install veracrypt
