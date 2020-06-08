@@ -34,6 +34,12 @@ if [ -d "$HOME/.anyenv" ] ; then
   eval "$(anyenv init -)"
 fi
 
+# for bash in Visual Studio Code
+for D in `ls $HOME/.anyenv/envs`
+do
+  export PATH="$HOME/.anyenv/envs/$D/shims:$PATH"
+done
+
 # Python
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
