@@ -26,9 +26,6 @@ install cask
 tap sanemat/font
 install ricty
 
-tap homebrew/completions
-install vagrant-completion
-
 # Generate synbolic link for GUI applications
 linkapps
 
