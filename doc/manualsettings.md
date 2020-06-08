@@ -146,49 +146,6 @@ iTerm2
 			* Scrollback Lines: 10,000
 
 
-ClamXav
--------
-
-### 初期設定
-
-* Clam AntiVirusエンジンのインストール
-    * インストール後、初めて実行するときに聞かれる
-* ウイルス定義の更新
-* ClamXav Sentryを起動（メニューから）
-
-### 設定
-
-* スケジュール
-	* ウイルス定義の更新: 毎日 12:00
-* Sentry
-	* 監視するフォルダを追加
-		* ~/Documents
-		* ~/Downloads
-		* ~/Desktop
-	* ログイン時にClamXav Sentryを起動: オン
-
-
-Caffeine
----------
-
-* Automatically start Caffeine at login: オン
-* Show this message when starting Caffeine: オフ
-
-
-AccessMenuBarApps
------------------
-
-* HotKey: Control + Option + スペース
-* Mouse gesture: オフ
-* FX
-	* Sound Fx: オフ
-	* Visual Fx: オン
-	* Animated Dock Item: オフ
-* Misc
-    * Launch at startup: オン
-	* Hide Dock Icon: オン
-
-
 Monolingual
 -----------
 
