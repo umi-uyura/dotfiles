@@ -8,12 +8,19 @@ update
 # Upgrade any already-installed formulae
 upgrade
 
+# Emacs Mac Port
+tap railwaycat/emacsmacport
+install emacs-mac
+
 # Install tools
 install ghostscript --with-x11
 install imagemagick --with-ghostscript --with-x11
-install https://gist.githubusercontent.com/ssugiyama/5ff88299efadd61415c5/raw/b7b496850386ef5638a7f4790c6edb8c68524500/emacs-jp.rb --with-cocoa --with-gnutls --with-modules
-install cask
 install homebrew/x11/meld
+
+# install https://gist.githubusercontent.com/ssugiyama/5ff88299efadd61415c5/raw/b7b496850386ef5638a7f4790c6edb8c68524500/emacs-jp.rb --with-cocoa --with-gnutls --with-modules
+# install https://gist.githubusercontent.com/ssugiyama/5ff88299efadd61415c5/raw/be3122a5728c8a5332932876aa3a4bc193fed018/emacs-jp.rb --with-cocoa --with-gnutls --with-modules
+# brew install https://gist.githubusercontent.com/KojiNakamaru/3d022107a86ed03bc1c4/raw/c3ba9f749b3786e2081b11dd6bdba4e81d408040/emacs.rb --with-cocoa  --with-modules --japanese
+install cask
 
 # Add tap
 tap sanemat/font
