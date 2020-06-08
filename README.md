@@ -47,7 +47,7 @@ $ mkdir -p $(anyenv root)/plugins
 $ git clone https://github.com/znz/anyenv-update.git $(anyenv root)/plugins/anyenv-update
 $ git clone https://github.com/znz/anyenv-git.git $(anyenv root)/plugins/anyenv-git
 
-$ anyenv install ndenv
+$ anyenv install nodenv
 $ anyenv install rbenv
 $ anyenv install phpenv
 $ anyenv install jenv
