@@ -70,6 +70,7 @@ cask install dbeaver-community 2> /dev/null
 cask install sequel-pro 2> /dev/null
 cask install robo-3t 2> /dev/null
 cask install db-browser-for-sqlite 2> /dev/null
+cask install beekeeper-studio 2> /dev/null
 
 cask install skype 2> /dev/null
 cask install caprine 2> /dev/null
