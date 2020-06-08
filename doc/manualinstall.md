@@ -12,7 +12,6 @@ App Store
 * [ZIPANG](http://ls-style.co.jp/system/sol-apple/mac-cocoa-application/larchiver/)
 * MemoryDiag
 * Caffeine
-* [Pushbullet](https://www.pushbullet.com/)
 * [‎Hidden Bar](https://apps.apple.com/app/hidden-bar/id1452453066) - メニューバーのアイコンを隠す
 * [Go2Shell](http://zipzapmac.com/Go2Shell)
 * ~~Pocket~~ ※データ量が大きくなるため削除
