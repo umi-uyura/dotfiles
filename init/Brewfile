@@ -61,6 +61,8 @@ install hicolor-icon-theme
 
 # Add tap
 
+install github/gh/gh
+
 
 # Generate synbolic link for GUI applications
 linkapps
