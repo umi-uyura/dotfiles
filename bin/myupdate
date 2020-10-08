@@ -216,13 +216,13 @@ if [ 0 -ne $SKIP_NODE ]; then
     echo "### Updating NPM ..."
     echo
     npm install -g npm
-    ndenv rehash
+    nodenv rehash
 
     echo
     echo "### Updating Node packages ..."
     echo
     npm update -g
-    ndenv rehash
+    nodenv rehash
   else
     echo
     echo "### Checking for Node package updates ..."
