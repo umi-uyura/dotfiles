@@ -176,10 +176,7 @@ if [ 0 -ne $SKIP_HOMEBREWS ]; then
     echo "### Updating Homebrew and Homebrew Cask ..."
     echo
     brew upgrade
-    brew cask upgrade
-
-    # brew cleanup
-    brew prune
+    brew upgrade --cask
   else
     echo
     echo "### Checking for Homebrew and Homebrew Cask updates ..."
