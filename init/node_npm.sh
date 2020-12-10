@@ -35,8 +35,9 @@ npm install -g eslint-plugin-react
 npm install -g jsonlint-mod
 npm install -g plato
 
-# Heroku
+# Platform
 npm install -g app.json
+npm install -g surge
 
 # Debug/Test
 npm install -g blink-diff
