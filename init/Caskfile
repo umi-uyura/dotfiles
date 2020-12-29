@@ -13,10 +13,8 @@ tap caskroom/cask
 
 tap caskroom/versions
 
-# cask install node 2> /dev/null
-cask install java8 2> /dev/null
-cask install xquartz 2> /dev/null
-# cask install adobe-air 2> /dev/null
+# cask install java8 2> /dev/null
+# cask install xquartz 2> /dev/null
 
 cask install iterm2 2> /dev/null
 cask install keepassx 2> /dev/null
@@ -33,8 +31,8 @@ cask install libreoffice 2> /dev/null
 cask install libreoffice-language-pack --language=ja 2> /dev/null
 cask install simplenote 2> /dev/null
 cask install xmind 2> /dev/null
-cask install ganttproject 2> /dev/null
-cask install projectlibre 2> /dev/null
+# cask install ganttproject 2> /dev/null
+# cask install projectlibre 2> /dev/null
 cask install typora 2> /dev/null
 cask install drawio 2> /dev/null
 cask install hex-fiend 2> /dev/null
@@ -44,43 +42,39 @@ cask install omnidisksweeper 2> /dev/null
 cask install android-file-transfer 2> /dev/null
 
 cask install github-desktop 2> /dev/null
-cask install gitup 2> /dev/null
-cask install fork 2> /dev/null
 cask install jasper 2> /dev/null
 
-# cask install launchrocket 2> /dev/null
+cask install visual-studio-code 2> /dev/null
+cask install intellij-idea-ce 2> /dev/null
 # cask install android-studio 2> /dev/null
 cask install androidtool 2> /dev/null
 cask install ios-console 2> /dev/null
 # cask install knuff 2> /dev/null
+# cask install launchrocket 2> /dev/null
 cask install beacon-scanner 2> /dev/null
-cask install intellij-idea-ce 2> /dev/null
-cask install visual-studio-code 2> /dev/null
 
 cask install virtualbox 2> /dev/null
 cask install virtualbox-extension-pack 2> /dev/null
 cask install vagrant 2> /dev/null
 cask install vagrant-manager 2> /dev/null
-# cask install genymotion 2> /dev/null
 
 cask install postgres 2> /dev/null
 cask install pgadmin4 2> /dev/null
-cask install psequel 2> /dev/null
 cask install dbeaver-community 2> /dev/null
-cask install sequel-pro 2> /dev/null
+# cask install sequel-ace 2> /dev/null
 cask install robo-3t 2> /dev/null
 cask install db-browser-for-sqlite 2> /dev/null
-cask install beekeeper-studio 2> /dev/null
+# cask install beekeeper-studio 2> /dev/null
 
-cask install skype 2> /dev/null
-cask install caprine 2> /dev/null
+# cask install skype 2> /dev/null
+# cask install caprine 2> /dev/null
 # cask install chatwork 2> /dev/null
 # cask install franz 2> /dev/null
-cask install ramme 2> /dev/null
+# cask install ramme 2> /dev/null
 cask install tweeten 2> /dev/null
 
-cask install filezilla 2> /dev/null
-cask install cyberduck 2> /dev/null
+# cask install filezilla 2> /dev/null
+# cask install cyberduck 2> /dev/null
 cask install postman 2> /dev/null
 cask install insomnia 2> /dev/null
 # cask install integrity 2> /dev/null # Available on Mac App Store, but it's old version
@@ -91,10 +85,10 @@ cask install switchhosts 2> /dev/null
 cask install imageoptim 2> /dev/null
 cask install imagealpha 2> /dev/null
 cask install inkscape 2> /dev/null
-cask install gimp 2> /dev/null
+# cask install gimp 2> /dev/null
 cask install paintbrush 2> /dev/null
-cask install linear 2> /dev/null
-cask install material-colors  2> /dev/null
+# cask install linear 2> /dev/null
+# cask install material-colors  2> /dev/null
 
 cask install vlc 2> /dev/null
 cask install handbrake 2> /dev/null

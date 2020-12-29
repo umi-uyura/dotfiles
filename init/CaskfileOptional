@@ -6,13 +6,13 @@
 # caskroom/versions
 #
 
-cask install google-drive 2> /dev/null
+# cask install google-drive 2> /dev/null
 
-cask install chrome-remote-desktop-host 2> /dev/null
+# cask install chrome-remote-desktop-host 2> /dev/null
 
-cask install mamp 2> /dev/null
+# cask install mamp 2> /dev/null
 
-cask install amazon-music 2> /dev/null
+# cask install amazon-music 2> /dev/null
 cask install kindle 2> /dev/null
 
 
