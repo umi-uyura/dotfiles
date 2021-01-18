@@ -35,6 +35,8 @@ App Store
 * [Icon Set Creator](http://nicolasmiari.com/utilities/icon-set-creator/)
 * [Image2icon](http://www.img2icnsapp.com/)
 * [Prepo 2](http://wearemothership.com/work/prepo/) - iOS/Macアプリ向けアイコン生成ツール
+* [GIF Brewery by Gfycat](https://gfycat.com/gifbrewery) - 動画からGIFアニメを生成
+* [Redacted](https://apps.apple.com/app/redacted/id984968384) - 画像に素早くモザイクやぼかし黒塗りを入れる
 * [Status Barred](http://www.sonicshore.com/os-x/)
 * [Quick CSS Sprite](http://www.tweaknow.com/quickcsssprite.php)
 * [GifGrabber](http://www.gifgrabber.com/)
