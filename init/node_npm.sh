@@ -8,6 +8,7 @@ npm update -g npm
 #
 
 # Web develop
+npm install -g yarn
 # npm install -g node-static
 npm install -g http-server
 npm install -g local-web-server
