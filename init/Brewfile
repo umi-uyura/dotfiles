@@ -42,6 +42,7 @@ install mycli
 install heroku
 install multimarkdown
 install pandoc
+install graphicsmagick
 install diff-pdf
 install jq
 install tig
