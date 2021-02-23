@@ -103,7 +103,6 @@ cask install appcleaner 2> /dev/null
 cask install maczip4win 2> /dev/null
 
 cask install keepingyouawake 2> /dev/null
-cask install avira-antivirus 2> /dev/null
 cask install flux 2> /dev/null
 cask install numi 2> /dev/null
 # cask install loading 2> /dev/null
