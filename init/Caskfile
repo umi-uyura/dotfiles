@@ -18,6 +18,7 @@ tap caskroom/versions
 
 cask install iterm2 2> /dev/null
 cask install keepassx 2> /dev/null
+cask install keepassxc 2> /dev/null
 cask install alfred 2> /dev/null
 cask install bitbar 2> /dev/null
 
