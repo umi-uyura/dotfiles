@@ -1,34 +1,34 @@
 #!/bin/sh
 
 # Update pip itself
-pip install --upgrade pip
+#pip3 install --upgrade pip
 
 #
-# Install pip packages
+# Install pip3 packages
 #
 
 # Linter
-pip install pylint
+pip3 install pylint
 
 # Utilities
-pip install python-dateutil
+pip3 install python-dateutil
 
 # CLI
-pip install tqdm
+pip3 install tqdm
+pip3 install prettytable
 
 # Web develop
-pip install requests
-pip install beautifulsoup4
-pip install lxml
-pip install selenium
+pip3 install requests
+pip3 install beautifulsoup4
+pip3 install lxml
+pip3 install selenium
 
 # Scientific calculation
-pip install numpy
-pip install matplotlib
+pip3 install numpy
+pip3 install matplotlib
 
 # Network
-pip install speedtest-cli
+pip3 install speedtest-cli
 
 # Tools
-pip install cheat
-pip install wakatime
+pip3 install wakatime
