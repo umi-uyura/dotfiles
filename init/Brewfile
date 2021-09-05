@@ -63,7 +63,7 @@ install hicolor-icon-theme
 # Add tap
 
 install github/gh/gh
-
+install isacikgoz/taps/tldr
 
 # Generate synbolic link for GUI applications
 linkapps

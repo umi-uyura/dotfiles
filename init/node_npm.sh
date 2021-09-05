@@ -53,4 +53,3 @@ npm install -g npm-check
 npm install -g unused-deps
 npm install -g lice
 npm install -g nlf
-npm install -g tldr
