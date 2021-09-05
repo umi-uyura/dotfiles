@@ -126,6 +126,9 @@ cask install monolingual 2> /dev/null
 # Install font casks
 #
 
+cask install font-ibm-plex 2> /dev/null
+cask install font-jetbrains-mono 2> /dev/null
+
 tap caskroom/fonts
 
 cask install font-roboto 2> /dev/null
