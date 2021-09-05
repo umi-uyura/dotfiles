@@ -1,4 +1,0 @@
-# Android debug bridge
-
-# Get application database
-adb shell "run-as com.example.demoapp" cat /data/data/com.example.demoapp/databases/database.db > output.db

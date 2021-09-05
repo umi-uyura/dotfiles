@@ -1,9 +1,0 @@
-# Show all current limits
-ulimit -a
-
-# Show the limit of open file descriptors
-ulimit -n
-
-# Set the limit of open file descriptors
-# '-S' option is soft limit
-ulimit -S -n 1024

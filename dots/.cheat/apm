@@ -1,5 +1,0 @@
-# Dump package list
-apm list -bi > Atomfile
-
-# Install from package list
-apm install --packages-file Atomfile
